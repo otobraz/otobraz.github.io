@@ -1,0 +1,2707 @@
+[{
+	"key": "MÁRCIO MIGUEL BITTAR",
+	"value": [{
+		"id_candidate_seq": "10000000003",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "MÁRCIO MIGUEL BITTAR",
+		"cat_state": "AC",
+		"cat_party": "PSDB",
+		"cat_coalition": "ALIANÇA POR UM ACRE MELHOR",
+		"cat_composition": "PMDB / PSDB / PT do B / PSC / PTC / PPS / PR / SD / PP / PSD",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "116948",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "10000000003",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "MÁRCIO MIGUEL BITTAR",
+		"cat_state": "AC",
+		"cat_party": "PSDB",
+		"cat_coalition": "ALIANÇA POR UM ACRE MELHOR",
+		"cat_composition": "PMDB / PSDB / PT do B / PSC / PTC / PPS / PR / SD / PP / PSD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "186658",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTONIO DA CRUZ DA ROCHA ALVES",
+	"value": [{
+		"id_candidate_seq": "10000000146",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "ANTONIO DA CRUZ DA ROCHA ALVES",
+		"cat_state": "AC",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2171",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SEBASTIÃO AFONSO VIANA MACEDO NEVES",
+	"value": [{
+		"id_candidate_seq": "10000000152",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "SEBASTIÃO AFONSO VIANA MACEDO NEVES",
+		"cat_state": "AC",
+		"cat_party": "PT",
+		"cat_coalition": "FRENTE POPULAR DO ACRE",
+		"cat_composition": "PDT / PRB / PT / PSL / PTN / PSDC / PHS / PSB / PRP / PEN / PPL / PC do B / PROS / PTB",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "193253",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "10000000152",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "SEBASTIÃO AFONSO VIANA MACEDO NEVES",
+		"cat_state": "AC",
+		"cat_party": "PT",
+		"cat_coalition": "FRENTE POPULAR DO ACRE",
+		"cat_composition": "PDT / PRB / PT / PSL / PTN / PSDC / PHS / PSB / PRP / PEN / PPL / PC do B / PROS / PTB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "196509",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SEBASTIÃO BOCALOM RODRIGUES",
+	"value": [{
+		"id_candidate_seq": "10000000364",
+		"id_candidate_num": "25",
+		"cat_candidate_name": "SEBASTIÃO BOCALOM RODRIGUES",
+		"cat_state": "AC",
+		"cat_party": "DEM",
+		"cat_coalition": "PRODUZIR PARA EMPREGAR",
+		"cat_composition": "DEM / PV / PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "76218",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GOLBERY LUIZ LESSA DE MOURA",
+	"value": [{
+		"id_candidate_seq": "20000000001",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "GOLBERY LUIZ LESSA DE MOURA",
+		"cat_state": "AL",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "3950",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MÁRIO AGRA JÚNIOR",
+	"value": [{
+		"id_candidate_seq": "20000000004",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "MÁRIO AGRA JÚNIOR",
+		"cat_state": "AL",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA DE ALAGOAS",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "60816",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ADROALDO FREITAS GOULART FILHO",
+	"value": [{
+		"id_candidate_seq": "20000000026",
+		"id_candidate_num": "51",
+		"cat_candidate_name": "ADROALDO FREITAS GOULART FILHO",
+		"cat_state": "AL",
+		"cat_party": "PEN",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2732",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUCIANO BALBINO DOS SANTOS",
+	"value": [{
+		"id_candidate_seq": "20000000032",
+		"id_candidate_num": "19",
+		"cat_candidate_name": "LUCIANO BALBINO DOS SANTOS",
+		"cat_state": "AL",
+		"cat_party": "PTN",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PTN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1820",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "BENEDITO DE LIRA",
+	"value": [{
+		"id_candidate_seq": "20000000100",
+		"id_candidate_num": "11",
+		"cat_candidate_name": "BENEDITO DE LIRA",
+		"cat_state": "AL",
+		"cat_party": "PP",
+		"cat_coalition": "JUNTOS COM O POVO PELA MELHORIA DE ALAGOAS",
+		"cat_composition": "PPS / PP / PSDC / PRP / PR / PSL / PSB / DEM / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "435827",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSE RENAN VASCONCELOS CALHEIROS FILHO",
+	"value": [{
+		"id_candidate_seq": "20000000202",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "JOSE RENAN VASCONCELOS CALHEIROS FILHO",
+		"cat_state": "AL",
+		"cat_party": "PMDB",
+		"cat_coalition": "COM O POVO PRA ALAGOAS MUDAR",
+		"cat_composition": "PV / PT do B / PMDB / PROS / PC do B / PSC / PHS / PTB / PSD / PDT / PT",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "670310",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JULIO CEZAR DA SILVA",
+	"value": [{
+		"id_candidate_seq": "20000000561",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "JULIO CEZAR DA SILVA",
+		"cat_state": "AL",
+		"cat_party": "PSDB",
+		"cat_coalition": "UM NOVO JEITO DE FAZER",
+		"cat_composition": "PSDB / PRB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "101757",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GENIVAL CRUZ DE ARAUJO",
+	"value": [{
+		"id_candidate_seq": "30000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "GENIVAL CRUZ DE ARAUJO",
+		"cat_state": "AP",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "5306",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUIZ CANTUARIA BARRETO",
+	"value": [{
+		"id_candidate_seq": "30000000057",
+		"id_candidate_num": "55",
+		"cat_candidate_name": "LUIZ CANTUARIA BARRETO",
+		"cat_state": "AP",
+		"cat_party": "PSD",
+		"cat_coalition": "JUNTOS PELO DESENVOLVIMENTO PELA PAZ E PELA VIDA",
+		"cat_composition": "DEM / PSDB / SD / PSD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "53079",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTÔNIO WALDEZ GÓES DA SILVA",
+	"value": [{
+		"id_candidate_seq": "30000000088",
+		"id_candidate_num": "12",
+		"cat_candidate_name": "ANTÔNIO WALDEZ GÓES DA SILVA",
+		"cat_state": "AP",
+		"cat_party": "PDT",
+		"cat_coalition": "A FORÇA DO POVO",
+		"cat_composition": "PP / PDT / PMDB",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "161550",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "30000000088",
+		"id_candidate_num": "12",
+		"cat_candidate_name": "ANTÔNIO WALDEZ GÓES DA SILVA",
+		"cat_state": "AP",
+		"cat_party": "PDT",
+		"cat_coalition": "A FORÇA DO POVO",
+		"cat_composition": "PP / PDT / PMDB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "220256",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "DÉCIO ARAÚJO GOMES",
+	"value": [{
+		"id_candidate_seq": "30000000135",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "DÉCIO ARAÚJO GOMES",
+		"cat_state": "AP",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "455",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JORGE EMANOEL AMANAJAS CARDOSO",
+	"value": [{
+		"id_candidate_seq": "30000000140",
+		"id_candidate_num": "23",
+		"cat_candidate_name": "JORGE EMANOEL AMANAJAS CARDOSO",
+		"cat_state": "AP",
+		"cat_party": "PPS",
+		"cat_coalition": "O FUTURO COMEÇA AGORA",
+		"cat_composition": "PSC / PPS / PRTB / PMN / PTC / PRP / PPL / PTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "27045",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "BRUNO MANOEL REZENDE",
+	"value": [{
+		"id_candidate_seq": "30000000362",
+		"id_candidate_num": "70",
+		"cat_candidate_name": "BRUNO MANOEL REZENDE",
+		"cat_state": "AP",
+		"cat_party": "PT do B",
+		"cat_coalition": "UNIDOS PELO AMAPÁ QUE QUEREMOS",
+		"cat_composition": "PT do B / PRB / PROS / PR / PEN / PV / PHS / PSDC / PTN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "30135",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS CAMILO GÓES CAPIBERIBE",
+	"value": [{
+		"id_candidate_seq": "30000000460",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "CARLOS CAMILO GÓES CAPIBERIBE",
+		"cat_state": "AP",
+		"cat_party": "PSB",
+		"cat_coalition": "FRENTE POPULAR A FAVOR DO AMAPA",
+		"cat_composition": "PSB / PT / PSOL / PC do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "105445",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "30000000460",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "CARLOS CAMILO GÓES CAPIBERIBE",
+		"cat_state": "AP",
+		"cat_party": "PSB",
+		"cat_coalition": "FRENTE POPULAR A FAVOR DO AMAPA",
+		"cat_composition": "PSB / PT / PSOL / PC do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "143311",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "HERBERT AMAZONAS MASSULO",
+	"value": [{
+		"id_candidate_seq": "40000000005",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "HERBERT AMAZONAS MASSULO",
+		"cat_state": "AM",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "4897",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS EDUARDO DE SOUZA BRAGA",
+	"value": [{
+		"id_candidate_seq": "40000000072",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "CARLOS EDUARDO DE SOUZA BRAGA",
+		"cat_state": "AM",
+		"cat_party": "PMDB",
+		"cat_coalition": "RENOVAÇÃO E EXPERIÊNCIA",
+		"cat_composition": "PMDB / PP / PT / PDT / PTB / PPS / PRB / PSDC / PPL / PC do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "709058",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "40000000072",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "CARLOS EDUARDO DE SOUZA BRAGA",
+		"cat_state": "AM",
+		"cat_party": "PMDB",
+		"cat_coalition": "RENOVAÇÃO E EXPERIÊNCIA",
+		"cat_composition": "PMDB / PP / PT / PDT / PTB / PPS / PRB / PSDC / PPL / PC do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "696465",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUIZ MANOEL NAVARRO",
+	"value": [{
+		"id_candidate_seq": "40000000188",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "LUIZ MANOEL NAVARRO",
+		"cat_state": "AM",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "4196",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ MELO DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "40000000487",
+		"id_candidate_num": "90",
+		"cat_candidate_name": "JOSÉ MELO DE OLIVEIRA",
+		"cat_state": "AM",
+		"cat_party": "PROS",
+		"cat_coalition": "FAZENDO MAIS POR NOSSA GENTE",
+		"cat_composition": "PROS / DEM / PSL / PTN / PSC / PR / PRTB / PHS / PTC / PV / PRP / PSDB / PEN / PSD / SD / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "707151",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "40000000487",
+		"id_candidate_num": "90",
+		"cat_candidate_name": "JOSÉ MELO DE OLIVEIRA",
+		"cat_state": "AM",
+		"cat_party": "PROS",
+		"cat_coalition": "FAZENDO MAIS POR NOSSA GENTE",
+		"cat_composition": "PROS / DEM / PSL / PTN / PSC / PR / PRTB / PHS / PTC / PV / PRP / PSDB / PEN / PSD / SD / PT do B",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "869992",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCELO RAMOS RODRIGUES",
+	"value": [{
+		"id_candidate_seq": "40000000600",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "MARCELO RAMOS RODRIGUES",
+		"cat_state": "AM",
+		"cat_party": "PSB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "179758",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ABEL RODRIGUES ALVES",
+	"value": [{
+		"id_candidate_seq": "40000000711",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "ABEL RODRIGUES ALVES",
+		"cat_state": "AM",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "8448",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCO ANTÔNIO SOUZA RIBEIRO DA COSTA",
+	"value": [{
+		"id_candidate_seq": "40000000880",
+		"id_candidate_num": "33",
+		"cat_candidate_name": "MARCO ANTÔNIO SOUZA RIBEIRO DA COSTA",
+		"cat_state": "AM",
+		"cat_party": "PMN",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "29499",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RENATA MALLET GUENA",
+	"value": [{
+		"id_candidate_seq": "50000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "RENATA MALLET GUENA",
+		"cat_state": "BA",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "16788",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCOS ANTONIO GUIMARÃES MENDES",
+	"value": [{
+		"id_candidate_seq": "50000000007",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "MARCOS ANTONIO GUIMARÃES MENDES",
+		"cat_state": "BA",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "50891",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LIDICE DA MATA E SOUZA",
+	"value": [{
+		"id_candidate_seq": "50000000176",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "LIDICE DA MATA E SOUZA",
+		"cat_state": "BA",
+		"cat_party": "PSB",
+		"cat_coalition": "UM NOVO CAMINHO PARA  A BAHIA",
+		"cat_composition": "PSB / PSL / PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "432379",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RUI COSTA DOS SANTOS",
+	"value": [{
+		"id_candidate_seq": "50000000401",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "RUI COSTA DOS SANTOS",
+		"cat_state": "BA",
+		"cat_party": "PT",
+		"cat_coalition": "PRA BAHIA MUDAR MAIS",
+		"cat_composition": "PT / PP / PSD / PDT / PR / PC do B / PTB / PMN",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "3558975",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PAULO GANEM SOUTO",
+	"value": [{
+		"id_candidate_seq": "50000000620",
+		"id_candidate_num": "25",
+		"cat_candidate_name": "PAULO GANEM SOUTO",
+		"cat_state": "BA",
+		"cat_party": "DEM",
+		"cat_coalition": "UNIDOS PELA BAHIA",
+		"cat_composition": "DEM / PSDB / PMDB / SD / PTN / PROS / PRB / PSC / PTC / PV / PPS / PRP / PT do B / PSDC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2440409",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ELIANE NOVAES ELEUTERIO TEIXEIRA",
+	"value": [{
+		"id_candidate_seq": "60000000093",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "ELIANE NOVAES ELEUTERIO TEIXEIRA",
+		"cat_state": "CE",
+		"cat_party": "PSB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "144507",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "AILTON CLAECIO LOPES DANTAS",
+	"value": [{
+		"id_candidate_seq": "60000000377",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "AILTON CLAECIO LOPES DANTAS",
+		"cat_state": "CE",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA SOCIALISTA",
+		"cat_composition": "PSTU / PCB / PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "102394",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EUNÍCIO LOPES DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "60000000603",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "EUNÍCIO LOPES DE OLIVEIRA",
+		"cat_state": "CE",
+		"cat_party": "PMDB",
+		"cat_coalition": "CEARÁ DE TODOS",
+		"cat_composition": "PMDB / PSC / DEM / PSDC / PRP / PSDB / PR / PTN / PPS",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "1979499",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "60000000603",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "EUNÍCIO LOPES DE OLIVEIRA",
+		"cat_state": "CE",
+		"cat_party": "PMDB",
+		"cat_coalition": "CEARÁ DE TODOS",
+		"cat_composition": "PMDB / PSC / DEM / PSDC / PRP / PSDB / PR / PTN / PPS",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "2113940",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CAMILO SOBREIRA DE SANTANA",
+	"value": [{
+		"id_candidate_seq": "60000000764",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "CAMILO SOBREIRA DE SANTANA",
+		"cat_state": "CE",
+		"cat_party": "PT",
+		"cat_coalition": "PARA O CEARA SEGUIR MUDANDO",
+		"cat_composition": "PRB / PP / PDT / PT / PTB / PSL / PRTB / PHS / PMN / PTC / PV / PEN / PPL / PSD / PC do B / PT do B / SD / PROS",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "2039233",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "60000000764",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "CAMILO SOBREIRA DE SANTANA",
+		"cat_state": "CE",
+		"cat_party": "PT",
+		"cat_coalition": "PARA O CEARA SEGUIR MUDANDO",
+		"cat_composition": "PRB / PP / PDT / PT / PTB / PSL / PRTB / PHS / PMN / PTC / PV / PEN / PPL / PSD / PC do B / PT do B / SD / PROS",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "2417668",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTÔNIO CARLOS DE ANDRADE",
+	"value": [{
+		"id_candidate_seq": "70000000167",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "ANTÔNIO CARLOS DE ANDRADE",
+		"cat_state": "DF",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA",
+		"cat_composition": "PSOL / PSTU / PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "34689",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RODRIGO SOBRAL ROLLEMBERG",
+	"value": [{
+		"id_candidate_seq": "70000000434",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "RODRIGO SOBRAL ROLLEMBERG",
+		"cat_state": "DF",
+		"cat_party": "PSB",
+		"cat_coalition": "SOMOS TODOS BRASÍLIA",
+		"cat_composition": "PSB / SD / PDT / PSD",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "692855",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "70000000434",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "RODRIGO SOBRAL ROLLEMBERG",
+		"cat_state": "DF",
+		"cat_party": "PSB",
+		"cat_coalition": "SOMOS TODOS BRASÍLIA",
+		"cat_composition": "PSB / SD / PDT / PSD",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "812036",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PERCILLIANE MARRARA SILVA",
+	"value": [{
+		"id_candidate_seq": "70000000810",
+		"id_candidate_num": "29",
+		"cat_candidate_name": "PERCILLIANE MARRARA SILVA",
+		"cat_state": "DF",
+		"cat_party": "PCO",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCO",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "0",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "AGNELO SANTOS QUEIROZ FILHO",
+	"value": [{
+		"id_candidate_seq": "70000000818",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "AGNELO SANTOS QUEIROZ FILHO",
+		"cat_state": "DF",
+		"cat_party": "PT",
+		"cat_coalition": "RESPEITO POR BRASÍLIA",
+		"cat_composition": "PT / PMDB / PRB / PC do B / PRP / PPL / PV / PP / PTN / PT do B / PSC / PROS / PTC / PSL / PHS / PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "307500",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUIZ CARLOS PIETSCHMANN",
+	"value": [{
+		"id_candidate_seq": "70000000984",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "LUIZ CARLOS PIETSCHMANN",
+		"cat_state": "DF",
+		"cat_party": "PSDB",
+		"cat_coalition": "SERIEDADE PARA MUDAR",
+		"cat_composition": "PSDB / PPS / PSDC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "68305",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOFRAN FREJAT",
+	"value": [{
+		"id_candidate_seq": "70000001541",
+		"id_candidate_num": "22",
+		"cat_candidate_name": "JOFRAN FREJAT",
+		"cat_state": "DF",
+		"cat_party": "PR",
+		"cat_coalition": "UNIÃO E FORÇA",
+		"cat_composition": "PTB / PR / DEM / PRTB / PMN",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "428522",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "70000001541",
+		"id_candidate_num": "22",
+		"cat_candidate_name": "JOFRAN FREJAT",
+		"cat_state": "DF",
+		"cat_party": "PR",
+		"cat_coalition": "UNIÃO E FORÇA",
+		"cat_composition": "PTB / PR / DEM / PRTB / PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "649587",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MAURO RIBEIRO",
+	"value": [{
+		"id_candidate_seq": "80000000006",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "MAURO RIBEIRO",
+		"cat_state": "ES",
+		"cat_party": "PCB",
+		"cat_coalition": "FRENTE CLASSISTA E SOCIALISTA",
+		"cat_composition": "PCB / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2126",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ RENATO CASAGRANDE",
+	"value": [{
+		"id_candidate_seq": "80000000284",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "JOSÉ RENATO CASAGRANDE",
+		"cat_state": "ES",
+		"cat_party": "PSB",
+		"cat_coalition": "PRA FRENTE ESPÍRITO SANTO",
+		"cat_composition": "PSB / PSDC / PSL / PP / PRTB / PT do B / PPS / PR / PSC / PSD / PTC / PC do B / PV / PHS / PTN / PPL / PMN / PRB / PTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "751293",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ROBERTO CARLOS TELES BRAGA",
+	"value": [{
+		"id_candidate_seq": "80000000395",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "ROBERTO CARLOS TELES BRAGA",
+		"cat_state": "ES",
+		"cat_party": "PT",
+		"cat_coalition": "COM A FORÇA DO POVO CAPIXABA",
+		"cat_composition": "PDT / PT",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "114691",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PAULO CESAR HARTUNG GOMES",
+	"value": [{
+		"id_candidate_seq": "80000000427",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "PAULO CESAR HARTUNG GOMES",
+		"cat_state": "ES",
+		"cat_party": "PMDB",
+		"cat_coalition": "O ESPIRITO SANTO PODE MUITO MAIS",
+		"cat_composition": "PMDB / PSDB / DEM / SD / PEN / PROS / PRP",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "1020440",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CAMILA COSTA VALADÃO",
+	"value": [{
+		"id_candidate_seq": "80000000485",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "CAMILA COSTA VALADÃO",
+		"cat_state": "ES",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "21044",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ALEXANDRE SILVA DE MAGALHÃES",
+	"value": [{
+		"id_candidate_seq": "90000000002",
+		"id_candidate_num": "27",
+		"cat_candidate_name": "ALEXANDRE SILVA DE MAGALHÃES",
+		"cat_state": "GO",
+		"cat_party": "PSDC",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSDC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "5105",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "VANDERLAN VIEIRA CARDOSO",
+	"value": [{
+		"id_candidate_seq": "90000000024",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "VANDERLAN VIEIRA CARDOSO",
+		"cat_state": "GO",
+		"cat_party": "PSB",
+		"cat_coalition": "PARTICIPAÇÃO POPULAR",
+		"cat_composition": "PSB / PSC / PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "474090",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTÔNIO ROBERTO OTONI GOMIDE",
+	"value": [{
+		"id_candidate_seq": "90000000316",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "ANTÔNIO ROBERTO OTONI GOMIDE",
+		"cat_state": "GO",
+		"cat_party": "PT",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PT",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "0",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "WESLEI GARCIA DE PAULO",
+	"value": [{
+		"id_candidate_seq": "90000000510",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "WESLEI GARCIA DE PAULO",
+		"cat_state": "GO",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "10522",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "IRIS REZENDE MACHADO",
+	"value": [{
+		"id_candidate_seq": "90000000608",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "IRIS REZENDE MACHADO",
+		"cat_state": "GO",
+		"cat_party": "PMDB",
+		"cat_coalition": "AMOR POR GOIAS",
+		"cat_composition": "PMDB / DEM / SD / PC do B / PRTB / PTN / PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "898645",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "90000000608",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "IRIS REZENDE MACHADO",
+		"cat_state": "GO",
+		"cat_party": "PMDB",
+		"cat_coalition": "AMOR POR GOIAS",
+		"cat_composition": "PMDB / DEM / SD / PC do B / PRTB / PTN / PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1297592",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCONI FERREIRA PERILLO JUNIOR",
+	"value": [{
+		"id_candidate_seq": "90000000637",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "MARCONI FERREIRA PERILLO JUNIOR",
+		"cat_state": "GO",
+		"cat_party": "PSDB",
+		"cat_coalition": "GARANTIA DE UM FUTURO MELHOR PARA GOIÁS",
+		"cat_composition": "PRB / PP / PDT / PTB / PSL / PR / PPS / PHS / PMN / PTC / PV / PSDB / PEN / PSD / PT do B / PROS",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "1451330",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "90000000637",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "MARCONI FERREIRA PERILLO JUNIOR",
+		"cat_state": "GO",
+		"cat_party": "PSDB",
+		"cat_coalition": "GARANTIA DE UM FUTURO MELHOR PARA GOIÁS",
+		"cat_composition": "PRB / PP / PDT / PTB / PSL / PR / PPS / PHS / PMN / PTC / PV / PSDB / PEN / PSD / PT do B / PROS",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1750977",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SAULO COSTA ARCANGELI",
+	"value": [{
+		"id_candidate_seq": "100000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "SAULO COSTA ARCANGELI",
+		"cat_state": "MA",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "27304",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FLAVIO DINO DE CASTRO E COSTA",
+	"value": [{
+		"id_candidate_seq": "100000000014",
+		"id_candidate_num": "65",
+		"cat_candidate_name": "FLAVIO DINO DE CASTRO E COSTA",
+		"cat_state": "MA",
+		"cat_party": "PC do B",
+		"cat_coalition": "TODOS PELO MARANHÃO",
+		"cat_composition": "PP / SD / PROS / PSDB / PC do B / PSB / PDT / PTC / PPS",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "1877064",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUÍS ANTONIO CÂMARA PEDROSA",
+	"value": [{
+		"id_candidate_seq": "100000000200",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "LUÍS ANTONIO CÂMARA PEDROSA",
+		"cat_state": "MA",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "33749",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EDISON LOBÃO FILHO",
+	"value": [{
+		"id_candidate_seq": "100000000376",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "EDISON LOBÃO FILHO",
+		"cat_state": "MA",
+		"cat_party": "PMDB",
+		"cat_coalition": "PRA FRENTE MARANHÃO",
+		"cat_composition": "PMDB / PSL / PEN / PSDC / PRP / PTN / PMN / PSC / PHS / PRTB / PR / PRB / DEM / PSD / PV / PT / PTB / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "995619",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSIVALDO CORREA SILVA",
+	"value": [{
+		"id_candidate_seq": "100000000534",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "JOSIVALDO CORREA SILVA",
+		"cat_state": "MA",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "3574",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ PEDRO GONÇALVES TAQUES",
+	"value": [{
+		"id_candidate_seq": "110000000001",
+		"id_candidate_num": "12",
+		"cat_candidate_name": "JOSÉ PEDRO GONÇALVES TAQUES",
+		"cat_state": "MT",
+		"cat_party": "PDT",
+		"cat_coalition": "CORAGEM E ATITUDE PRA MUDAR",
+		"cat_composition": "PDT / PP / DEM / PSDB / PSB / PPS / PV / PTB / PSDC / PSC / PRP / PSL / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "833788",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ ROBERTO DE FREITAS CAVALCANTE",
+	"value": [{
+		"id_candidate_seq": "110000000027",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "JOSÉ ROBERTO DE FREITAS CAVALCANTE",
+		"cat_state": "MT",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "5570",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSE MARCONDES DOS SANTOS NETO",
+	"value": [{
+		"id_candidate_seq": "110000000176",
+		"id_candidate_num": "31",
+		"cat_candidate_name": "JOSE MARCONDES DOS SANTOS NETO",
+		"cat_state": "MT",
+		"cat_party": "PHS",
+		"cat_coalition": "MOBILIZAR E HUMANIZAR",
+		"cat_composition": "PHS / PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "0",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LÚDIO FRANK MENDES CABRAL",
+	"value": [{
+		"id_candidate_seq": "110000000291",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "LÚDIO FRANK MENDES CABRAL",
+		"cat_state": "MT",
+		"cat_party": "PT",
+		"cat_coalition": "AMOR A NOSSA GENTE",
+		"cat_composition": "PT / PMDB / PROS / PR / PC do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "472507",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JANETE GOMES RIVA",
+	"value": [{
+		"id_candidate_seq": "110000000582",
+		"id_candidate_num": "55",
+		"cat_candidate_name": "JANETE GOMES RIVA",
+		"cat_state": "MT",
+		"cat_party": "PSD",
+		"cat_coalition": "VIVA MATO GROSSO",
+		"cat_composition": "PSD / PTC / PTN / PEN / PRTB / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "144440",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCO ANTONIO OLIVA MONJE",
+	"value": [{
+		"id_candidate_seq": "120000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "MARCO ANTONIO OLIVA MONJE",
+		"cat_state": "MS",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2035",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "REINALDO AZAMBUJA SILVA",
+	"value": [{
+		"id_candidate_seq": "120000000022",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "REINALDO AZAMBUJA SILVA",
+		"cat_state": "MS",
+		"cat_party": "PSDB",
+		"cat_coalition": "NOVO TEMPO",
+		"cat_composition": "PSDB / DEM / PSD / SD / PPS / PMN",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "516744",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "120000000022",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "REINALDO AZAMBUJA SILVA",
+		"cat_state": "MS",
+		"cat_party": "PSDB",
+		"cat_coalition": "NOVO TEMPO",
+		"cat_composition": "PSDB / DEM / PSD / SD / PPS / PMN",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "741516",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "NELSON TRAD FILHO",
+	"value": [{
+		"id_candidate_seq": "120000000282",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "NELSON TRAD FILHO",
+		"cat_state": "MS",
+		"cat_party": "PMDB",
+		"cat_coalition": "MS CADA VEZ MELHOR",
+		"cat_composition": "PMDB / PSB / PT do B / PSC / PHS / PRB / PRTB / PTN / PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "217093",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "DELCÍDIO DO AMARAL GOMEZ",
+	"value": [{
+		"id_candidate_seq": "120000000283",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DELCÍDIO DO AMARAL GOMEZ",
+		"cat_state": "MS",
+		"cat_party": "PT",
+		"cat_coalition": "MATO GROSSO DO SUL COM A FORÇA DE TODOS",
+		"cat_composition": "PDT / PT / PSL / PR / PSDC / PV / PROS / PC do B / PTB / PTC / PPL / PRP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "567331",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "120000000283",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DELCÍDIO DO AMARAL GOMEZ",
+		"cat_state": "MS",
+		"cat_party": "PT",
+		"cat_coalition": "MATO GROSSO DO SUL COM A FORÇA DE TODOS",
+		"cat_composition": "PDT / PT / PSL / PR / PSDC / PV / PROS / PC do B / PTB / PTC / PPL / PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "598461",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EVANDER JOSE VENDRAMINI DURAN",
+	"value": [{
+		"id_candidate_seq": "120000000439",
+		"id_candidate_num": "11",
+		"cat_candidate_name": "EVANDER JOSE VENDRAMINI DURAN",
+		"cat_state": "MS",
+		"cat_party": "PP",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "10823",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SIDELVAR APARECIDO DE MELO",
+	"value": [{
+		"id_candidate_seq": "120000000486",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "SIDELVAR APARECIDO DE MELO",
+		"cat_state": "MS",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "7823",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOÃO PIMENTA DA VEIGA FILHO",
+	"value": [{
+		"id_candidate_seq": "130000000198",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "JOÃO PIMENTA DA VEIGA FILHO",
+		"cat_state": "MG",
+		"cat_party": "PSDB",
+		"cat_coalition": "TODOS POR MINAS",
+		"cat_composition": "PSDB / PP / DEM / PSD / PTB / PPS / PV / PDT / PR / PMN / PSC / PSL / PTC / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "4240706",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FIDÉLIS OLIVEIRA ALCANTARA",
+	"value": [{
+		"id_candidate_seq": "130000000299",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "FIDÉLIS OLIVEIRA ALCANTARA",
+		"cat_state": "MG",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA SOCIALISTA",
+		"cat_composition": "PSTU / PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "67785",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CLEIDE DONÁRIA DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "130000000419",
+		"id_candidate_num": "29",
+		"cat_candidate_name": "CLEIDE DONÁRIA DE OLIVEIRA",
+		"cat_state": "MG",
+		"cat_party": "PCO",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCO",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "7590",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EDUARDO FERREIRA DE SOUZA",
+	"value": [{
+		"id_candidate_seq": "130000000530",
+		"id_candidate_num": "27",
+		"cat_candidate_name": "EDUARDO FERREIRA DE SOUZA",
+		"cat_state": "MG",
+		"cat_party": "PSDC",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSDC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "23017",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FERNANDO DAMATA PIMENTEL",
+	"value": [{
+		"id_candidate_seq": "130000000829",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "FERNANDO DAMATA PIMENTEL",
+		"cat_state": "MG",
+		"cat_party": "PT",
+		"cat_coalition": "MINAS PRA VOCÊ",
+		"cat_composition": "PT / PMDB / PC do B / PROS / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "5362870",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RAIMUNDO TARCISIO DELGADO",
+	"value": [{
+		"id_candidate_seq": "130000001176",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "RAIMUNDO TARCISIO DELGADO",
+		"cat_state": "MG",
+		"cat_party": "PSB",
+		"cat_coalition": "MINAS QUER MUDANÇA",
+		"cat_composition": "PSB / PPL / PRTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "395039",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "TULIO CESAR DIAS LOPES",
+	"value": [{
+		"id_candidate_seq": "130000001766",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "TULIO CESAR DIAS LOPES",
+		"cat_state": "MG",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "26023",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ CARLOS LIMA DA COSTA",
+	"value": [{
+		"id_candidate_seq": "140000000016",
+		"id_candidate_num": "43",
+		"cat_candidate_name": "JOSÉ CARLOS LIMA DA COSTA",
+		"cat_state": "PA",
+		"cat_party": "PV",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PV",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "44247",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCO ANTÔNIO CARRERA FERREIRA",
+	"value": [{
+		"id_candidate_seq": "140000000089",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "MARCO ANTÔNIO CARRERA FERREIRA",
+		"cat_state": "PA",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA - MUDANÇA PRA VALER",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "63078",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "HELDER ZAHLUTH BARBALHO",
+	"value": [{
+		"id_candidate_seq": "140000000468",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "HELDER ZAHLUTH BARBALHO",
+		"cat_state": "PA",
+		"cat_party": "PMDB",
+		"cat_coalition": "TODOS PELO PARÁ",
+		"cat_composition": "PMDB / PT / DEM / PR / PDT / PROS / PHS / PC do B / PSL / PPL / PTN",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "1795992",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "140000000468",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "HELDER ZAHLUTH BARBALHO",
+		"cat_state": "PA",
+		"cat_party": "PMDB",
+		"cat_coalition": "TODOS PELO PARÁ",
+		"cat_composition": "PMDB / PT / DEM / PR / PDT / PROS / PHS / PC do B / PSL / PPL / PTN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1721479",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SIMÃO ROBISON OLIVEIRA JATENE",
+	"value": [{
+		"id_candidate_seq": "140000000828",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "SIMÃO ROBISON OLIVEIRA JATENE",
+		"cat_state": "PA",
+		"cat_party": "PSDB",
+		"cat_coalition": "JUNTOS COM O POVO",
+		"cat_composition": "PSDB / PSD / PSB / PP / SD / PRB / PSC / PTB / PPS / PEN / PMN / PTC / PSDC / PT do B / PRP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "1745442",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "140000000828",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "SIMÃO ROBISON OLIVEIRA JATENE",
+		"cat_state": "PA",
+		"cat_party": "PSDB",
+		"cat_coalition": "JUNTOS COM O POVO",
+		"cat_composition": "PSDB / PSD / PSB / PP / SD / PRB / PSC / PTB / PPS / PEN / PMN / PTC / PSDC / PT do B / PRP",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1858869",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ELTON DE BARROS BRAGA",
+	"value": [{
+		"id_candidate_seq": "140000001017",
+		"id_candidate_num": "28",
+		"cat_candidate_name": "ELTON DE BARROS BRAGA",
+		"cat_state": "PA",
+		"cat_party": "PRTB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "14712",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "TARCIO HOLANDA TEIXEIRA",
+	"value": [{
+		"id_candidate_seq": "150000000010",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "TARCIO HOLANDA TEIXEIRA",
+		"cat_state": "PB",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "8849",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RICARDO VIEIRA COUTINHO",
+	"value": [{
+		"id_candidate_seq": "150000000052",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "RICARDO VIEIRA COUTINHO",
+		"cat_state": "PB",
+		"cat_party": "PSB",
+		"cat_coalition": "A FORÇA DO TRABALHO",
+		"cat_composition": "PSB / PT / PDT / DEM / PRTB / PRP / PV / PSL / PC do B / PHS / PPL",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "937009",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "150000000052",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "RICARDO VIEIRA COUTINHO",
+		"cat_state": "PB",
+		"cat_party": "PSB",
+		"cat_coalition": "A FORÇA DO TRABALHO",
+		"cat_composition": "PSB / PT / PDT / DEM / PRTB / PRP / PV / PSL / PC do B / PHS / PPL",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1125956",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "VITAL DO RÊGO FILHO",
+	"value": [{
+		"id_candidate_seq": "150000000156",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "VITAL DO RÊGO FILHO",
+		"cat_state": "PB",
+		"cat_party": "PMDB",
+		"cat_coalition": "RENOVAÇÃO DE VERDADE",
+		"cat_composition": "PMDB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "106162",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTONIO FERREIRA LIMA NETO",
+	"value": [{
+		"id_candidate_seq": "150000000331",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "ANTONIO FERREIRA LIMA NETO",
+		"cat_state": "PB",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2570",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FABIO RODRIGUES DE OLIVEIR",
+	"value": [{
+		"id_candidate_seq": "150000000404",
+		"id_candidate_num": "90",
+		"cat_candidate_name": "FABIO RODRIGUES DE OLIVEIR",
+		"cat_state": "PB",
+		"cat_party": "PROS",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PROS",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "14910",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CASSIO RODRIGUES DA CUNHA LIMA",
+	"value": [{
+		"id_candidate_seq": "150000000407",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "CASSIO RODRIGUES DA CUNHA LIMA",
+		"cat_state": "PB",
+		"cat_party": "PSDB",
+		"cat_coalition": "A VONTADE DO POVO",
+		"cat_composition": "PSDB / PEN / PR / PTB / PSD / SD / PMN / PPS / PT do B / PTN / PRB / PSDC / PSC / PP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "965397",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "150000000407",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "CASSIO RODRIGUES DA CUNHA LIMA",
+		"cat_state": "PB",
+		"cat_party": "PSDB",
+		"cat_coalition": "A VONTADE DO POVO",
+		"cat_composition": "PSDB / PEN / PR / PTB / PSD / SD / PMN / PPS / PT do B / PTN / PRB / PSDC / PSC / PP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1014393",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "BERNARDO SEIXAS PILOTTO",
+	"value": [{
+		"id_candidate_seq": "160000000002",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "BERNARDO SEIXAS PILOTTO",
+		"cat_state": "PR",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "35327",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ROBERTO REQUIAO DE MELLO E SILVA",
+	"value": [{
+		"id_candidate_seq": "160000000324",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "ROBERTO REQUIAO DE MELLO E SILVA",
+		"cat_state": "PR",
+		"cat_party": "PMDB",
+		"cat_coalition": "PARANÁ COM GOVERNO",
+		"cat_composition": "PMDB / PV / PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1634316",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS ALBERTO RICHA",
+	"value": [{
+		"id_candidate_seq": "160000000558",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "CARLOS ALBERTO RICHA",
+		"cat_state": "PR",
+		"cat_party": "PSDB",
+		"cat_coalition": "TODOS PELO PARANÁ",
+		"cat_composition": "PSDB / PROS / DEM / PSB / PSD / PTB / PP / PPS / PSC / PR / SD / PSL / PSDC / PMN / PHS / PEN / PT do B",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "3301322",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GEONISIO CESAR MARINHO",
+	"value": [{
+		"id_candidate_seq": "160000000632",
+		"id_candidate_num": "28",
+		"cat_candidate_name": "GEONISIO CESAR MARINHO",
+		"cat_state": "PR",
+		"cat_party": "PRTB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "7303",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GLEISI HELENA HOFFMANN",
+	"value": [{
+		"id_candidate_seq": "160000000645",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "GLEISI HELENA HOFFMANN",
+		"cat_state": "PR",
+		"cat_party": "PT",
+		"cat_coalition": "PARANÁ OLHANDO PRA FRENTE",
+		"cat_composition": "PT / PDT / PC do B / PRB / PTN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "881857",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "OGIER ALBERGE BUCHI",
+	"value": [{
+		"id_candidate_seq": "160000001022",
+		"id_candidate_num": "44",
+		"cat_candidate_name": "OGIER ALBERGE BUCHI",
+		"cat_state": "PR",
+		"cat_party": "PRP",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "50446",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RODRIGO TOMAZINI DIAS",
+	"value": [{
+		"id_candidate_seq": "160000001091",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "RODRIGO TOMAZINI DIAS",
+		"cat_state": "PR",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "5726",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "TULIO MARCELO DENIG BANDEIRA",
+	"value": [{
+		"id_candidate_seq": "160000001250",
+		"id_candidate_num": "36",
+		"cat_candidate_name": "TULIO MARCELO DENIG BANDEIRA",
+		"cat_state": "PR",
+		"cat_party": "PTC",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PTC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "13700",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JAIR PEDRO DA SILVA",
+	"value": [{
+		"id_candidate_seq": "170000000009",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "JAIR PEDRO DA SILVA",
+		"cat_state": "PE",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "5281",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MIGUEL ANACLETO DA SILVA JUNIOR",
+	"value": [{
+		"id_candidate_seq": "170000000020",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "MIGUEL ANACLETO DA SILVA JUNIOR",
+		"cat_state": "PE",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2892",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PAULO HENRIQUE SARAIVA CÂMARA",
+	"value": [{
+		"id_candidate_seq": "170000000024",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "PAULO HENRIQUE SARAIVA CÂMARA",
+		"cat_state": "PE",
+		"cat_party": "PSB",
+		"cat_coalition": "FRENTE POPULAR DE PERNAMBUCO",
+		"cat_composition": "PMDB / PC do B / PSB / PTC / PRP / PV / PTN / PR / PSD / PPS / PSDB / SD / PPL / DEM / PHS / PSDC / PROS / PP / PEN / PRTB / PSL",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "3009087",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSE GOMES DE SA NETO",
+	"value": [{
+		"id_candidate_seq": "170000000451",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "JOSE GOMES DE SA NETO",
+		"cat_state": "PE",
+		"cat_party": "PSOL",
+		"cat_coalition": "MOBILIZAÇÃO POR PODER POPULAR",
+		"cat_composition": "PSOL / PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "27895",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ARMANDO DE QUEIROZ MONTEIRO NETO",
+	"value": [{
+		"id_candidate_seq": "170000000598",
+		"id_candidate_num": "14",
+		"cat_candidate_name": "ARMANDO DE QUEIROZ MONTEIRO NETO",
+		"cat_state": "PE",
+		"cat_party": "PTB",
+		"cat_coalition": "PERNAMBUCO VAI MAIS LONGE",
+		"cat_composition": "PTB / PT / PSC / PDT / PRB / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1373237",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "DANIEL VASCONCELOS SOLON",
+	"value": [{
+		"id_candidate_seq": "180000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "DANIEL VASCONCELOS SOLON",
+		"cat_state": "PI",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "6452",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FRANCISCO DE ASSIS MORAES SOUZA",
+	"value": [{
+		"id_candidate_seq": "180000000013",
+		"id_candidate_num": "20",
+		"cat_candidate_name": "FRANCISCO DE ASSIS MORAES SOUZA",
+		"cat_state": "PI",
+		"cat_party": "PSC",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "25877",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "NILO CARVALHO NETO",
+	"value": [{
+		"id_candidate_seq": "180000000034",
+		"id_candidate_num": "54",
+		"cat_candidate_name": "NILO CARVALHO NETO",
+		"cat_state": "PI",
+		"cat_party": "PPL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "4217",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTONIO JOSE DE MORAES SOUZA FILHO",
+	"value": [{
+		"id_candidate_seq": "180000000044",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "ANTONIO JOSE DE MORAES SOUZA FILHO",
+		"cat_state": "PI",
+		"cat_party": "PMDB",
+		"cat_coalition": "PIAUÍ NO CORAÇÃO",
+		"cat_composition": "PMDB / PSDB / PSB / PRB / PDT / PSL / PTN / PPS / DEM / PSDC / PMN / PTC / PSD / PC do B / PT do B / PV / PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "555201",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARIA DE LOURDES SOARES MELO",
+	"value": [{
+		"id_candidate_seq": "180000000138",
+		"id_candidate_num": "29",
+		"cat_candidate_name": "MARIA DE LOURDES SOARES MELO",
+		"cat_state": "PI",
+		"cat_party": "PCO",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCO",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "2180",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MAKLANDEL AQUINO MATOS",
+	"value": [{
+		"id_candidate_seq": "180000000191",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "MAKLANDEL AQUINO MATOS",
+		"cat_state": "PI",
+		"cat_party": "PSOL",
+		"cat_coalition": "O PODER POPULAR NA CONSTRUÇÃO DO SOCIALISMO",
+		"cat_composition": "PSOL / PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "22480",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ WELLINGTON BARROSO DE ARAÚJO DIAS",
+	"value": [{
+		"id_candidate_seq": "180000000212",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "JOSÉ WELLINGTON BARROSO DE ARAÚJO DIAS",
+		"cat_state": "PI",
+		"cat_party": "PT",
+		"cat_coalition": "A VITÓRIA COM A FORÇA DO POVO",
+		"cat_composition": "PT / PP / PTB / PHS / PR / PROS / PRP / SD",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "1053342",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "DAYSE OLIVEIRA GOMES",
+	"value": [{
+		"id_candidate_seq": "190000000100",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "DAYSE OLIVEIRA GOMES",
+		"cat_state": "RJ",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "33442",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "NEY DE SOUZA NUNES",
+	"value": [{
+		"id_candidate_seq": "190000000136",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "NEY DE SOUZA NUNES",
+		"cat_state": "RJ",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "8950",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "TARCISIO MOTTA DE CARVALHO",
+	"value": [{
+		"id_candidate_seq": "190000000409",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "TARCISIO MOTTA DE CARVALHO",
+		"cat_state": "RJ",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "712734",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "190000000585",
+		"id_candidate_num": "22",
+		"cat_candidate_name": "ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA",
+		"cat_state": "RJ",
+		"cat_party": "PR",
+		"cat_coalition": "ALIANÇA REPUBLICANA E TRABALHISTA",
+		"cat_composition": "PR / PT do B / PROS",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1576511",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUIZ LINDBERGH FARIAS FILHO",
+	"value": [{
+		"id_candidate_seq": "190000000673",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "LUIZ LINDBERGH FARIAS FILHO",
+		"cat_state": "RJ",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO FRENTE POPULAR",
+		"cat_composition": "PT / PV / PSB / PC do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "798897",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCELO BEZERRA  CRIVELLA",
+	"value": [{
+		"id_candidate_seq": "190000001406",
+		"id_candidate_num": "10",
+		"cat_candidate_name": "MARCELO BEZERRA  CRIVELLA",
+		"cat_state": "RJ",
+		"cat_party": "PRB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRB",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "1619165",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "190000001406",
+		"id_candidate_num": "10",
+		"cat_candidate_name": "MARCELO BEZERRA  CRIVELLA",
+		"cat_state": "RJ",
+		"cat_party": "PRB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "3442713",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LUIZ FERNANDO DE SOUZA",
+	"value": [{
+		"id_candidate_seq": "190000001649",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "LUIZ FERNANDO DE SOUZA",
+		"cat_state": "RJ",
+		"cat_party": "PMDB",
+		"cat_coalition": "O RIO EM 1º LUGAR",
+		"cat_composition": "PMDB / PP / PSC / PTB / PSL / PPS / PTN / DEM / PSDC / PRTB / PHS / PMN / PTC / PRP / PSDB / PEN / PSD / SD",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "3242513",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "190000001649",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "LUIZ FERNANDO DE SOUZA",
+		"cat_state": "RJ",
+		"cat_party": "PMDB",
+		"cat_coalition": "O RIO EM 1º LUGAR",
+		"cat_composition": "PMDB / PP / PSC / PTB / PSL / PPS / PTN / DEM / PSDC / PRTB / PHS / PMN / PTC / PRP / PSDB / PEN / PSD / SD",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "4343298",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "VERONICA SIMONE DUTRA VERAS",
+	"value": [{
+		"id_candidate_seq": "200000000001",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "VERONICA SIMONE DUTRA VERAS",
+		"cat_state": "RN",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "14549",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ARAKEN BARBOSA DE FARIAS FILHO",
+	"value": [{
+		"id_candidate_seq": "200000000016",
+		"id_candidate_num": "17",
+		"cat_candidate_name": "ARAKEN BARBOSA DE FARIAS FILHO",
+		"cat_state": "RN",
+		"cat_party": "PSL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "13396",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ROBÉRIO PAULINO RODRIGUES",
+	"value": [{
+		"id_candidate_seq": "200000000083",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "ROBÉRIO PAULINO RODRIGUES",
+		"cat_state": "RN",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "129616",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "HENRIQUE EDUARDO LYRA ALVES",
+	"value": [{
+		"id_candidate_seq": "200000000127",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "HENRIQUE EDUARDO LYRA ALVES",
+		"cat_state": "RN",
+		"cat_party": "PMDB",
+		"cat_coalition": "UNIÃO PELA MUDANÇA",
+		"cat_composition": "PMDB / PR / PSB / PROS / PDT / SD / PSC / PTB / PPS / PHS / PSDB / PSDC / PRB / PTN / PV / PMN / PRP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "702196",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "200000000127",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "HENRIQUE EDUARDO LYRA ALVES",
+		"cat_state": "RN",
+		"cat_party": "PMDB",
+		"cat_coalition": "UNIÃO PELA MUDANÇA",
+		"cat_composition": "PMDB / PR / PSB / PROS / PDT / SD / PSC / PTB / PPS / PHS / PSDB / PSDC / PRB / PTN / PV / PMN / PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "734801",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ROBINSON MESQUITA DE FARIA",
+	"value": [{
+		"id_candidate_seq": "200000000242",
+		"id_candidate_num": "55",
+		"cat_candidate_name": "ROBINSON MESQUITA DE FARIA",
+		"cat_state": "RN",
+		"cat_party": "PSD",
+		"cat_coalition": "LIDERADOS PELO POVO",
+		"cat_composition": "PSD / PT / PC do B / PT do B / PP / PEN / PRTB / PTC",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "623614",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "200000000242",
+		"id_candidate_num": "55",
+		"cat_candidate_name": "ROBINSON MESQUITA DE FARIA",
+		"cat_state": "RN",
+		"cat_party": "PSD",
+		"cat_coalition": "LIDERADOS PELO POVO",
+		"cat_composition": "PSD / PT / PC do B / PT do B / PP / PEN / PRTB / PTC",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "877268",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "TARSO FERNANDO HERZ GENRO",
+	"value": [{
+		"id_candidate_seq": "210000000003",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "TARSO FERNANDO HERZ GENRO",
+		"cat_state": "RS",
+		"cat_party": "PT",
+		"cat_coalition": "UNIDADE POPULAR PELO RIO GRANDE",
+		"cat_composition": "PT / PTC / PC do B / PROS / PPL / PTB / PR",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "2005743",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "210000000003",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "TARSO FERNANDO HERZ GENRO",
+		"cat_state": "RS",
+		"cat_party": "PT",
+		"cat_coalition": "UNIDADE POPULAR PELO RIO GRANDE",
+		"cat_composition": "PT / PTC / PC do B / PROS / PPL / PTB / PR",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "2445664",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS ROBERTO DE SOUZA ROBAINA",
+	"value": [{
+		"id_candidate_seq": "210000000059",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "CARLOS ROBERTO DE SOUZA ROBAINA",
+		"cat_state": "RS",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA - PSOL / PSTU",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "47138",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOSÉ IVO SARTORI",
+	"value": [{
+		"id_candidate_seq": "210000000083",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "JOSÉ IVO SARTORI",
+		"cat_state": "RS",
+		"cat_party": "PMDB",
+		"cat_coalition": "O NOVO CAMINHO PARA O RIO GRANDE",
+		"cat_composition": "PMDB / PSD / PPS / PSB / PHS / PT do B / PSL / PSDC",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "2487889",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "210000000083",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "JOSÉ IVO SARTORI",
+		"cat_state": "RS",
+		"cat_party": "PMDB",
+		"cat_coalition": "O NOVO CAMINHO PARA O RIO GRANDE",
+		"cat_composition": "PMDB / PSD / PPS / PSB / PHS / PT do B / PSL / PSDC",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "3859611",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS EDUARDO VIEIRA DA CUNHA",
+	"value": [{
+		"id_candidate_seq": "210000000282",
+		"id_candidate_num": "12",
+		"cat_candidate_name": "CARLOS EDUARDO VIEIRA DA CUNHA",
+		"cat_state": "RS",
+		"cat_party": "PDT",
+		"cat_coalition": "O RIO GRANDE MERECE MAIS",
+		"cat_composition": "PDT / PSC / DEM / PV / PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "263062",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EDISON ESTIVALETE BILHALVA",
+	"value": [{
+		"id_candidate_seq": "210000000500",
+		"id_candidate_num": "28",
+		"cat_candidate_name": "EDISON ESTIVALETE BILHALVA",
+		"cat_state": "RS",
+		"cat_party": "PRTB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "10154",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANA AMELIA DE LEMOS",
+	"value": [{
+		"id_candidate_seq": "210000000633",
+		"id_candidate_num": "11",
+		"cat_candidate_name": "ANA AMELIA DE LEMOS",
+		"cat_state": "RS",
+		"cat_party": "PP",
+		"cat_coalition": "ESPERANÇA QUE UNE O RIO GRANDE",
+		"cat_composition": "PP / PRB / PSDB / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1342115",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "NASCIMENTO ANTONIO DA SILVA",
+	"value": [{
+		"id_candidate_seq": "220000000003",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "NASCIMENTO ANTONIO DA SILVA",
+		"cat_state": "RO",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA PSOL/PSTU",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "7757",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EXPEDITO GONÇALVES FERREIRA JUNIOR",
+	"value": [{
+		"id_candidate_seq": "220000000038",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "EXPEDITO GONÇALVES FERREIRA JUNIOR",
+		"cat_state": "RO",
+		"cat_party": "PSDB",
+		"cat_coalition": "FRENTE MUDA RONDÔNIA",
+		"cat_composition": "PSDB / PSDC / PSD / PEN / PHS / PSC / PMN / PT do B / PRB / DEM",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "284663",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "220000000038",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "EXPEDITO GONÇALVES FERREIRA JUNIOR",
+		"cat_state": "RO",
+		"cat_party": "PSDB",
+		"cat_coalition": "FRENTE MUDA RONDÔNIA",
+		"cat_composition": "PSDB / PSDC / PSD / PEN / PHS / PSC / PMN / PT do B / PRB / DEM",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "366072",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARITON BENEDITO DE HOLANDA",
+	"value": [{
+		"id_candidate_seq": "220000000114",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "MARITON BENEDITO DE HOLANDA",
+		"cat_state": "RO",
+		"cat_party": "PT",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PT",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "101612",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CONFUCIO AIRES MOURA",
+	"value": [{
+		"id_candidate_seq": "220000000187",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "CONFUCIO AIRES MOURA",
+		"cat_state": "RO",
+		"cat_party": "PMDB",
+		"cat_coalition": "RONDONIA NO CAMINHO CERTO",
+		"cat_composition": "PMDB / PDT / PSB / PTN / PTB / PC do B / PRTB / PSL / PRP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "288220",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "220000000187",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "CONFUCIO AIRES MOURA",
+		"cat_state": "RO",
+		"cat_party": "PMDB",
+		"cat_coalition": "RONDONIA NO CAMINHO CERTO",
+		"cat_composition": "PMDB / PDT / PSB / PTN / PTB / PC do B / PRTB / PSL / PRP",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "419928",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "DIRLAINE JAQUELINE CASSOL",
+	"value": [{
+		"id_candidate_seq": "220000000275",
+		"id_candidate_num": "22",
+		"cat_candidate_name": "DIRLAINE JAQUELINE CASSOL",
+		"cat_state": "RO",
+		"cat_party": "PR",
+		"cat_coalition": "O RESPEITO ESTA DE VOLTA",
+		"cat_composition": "PP / PR / PPS / PROS / PV / PTC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "121406",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "HAMILTON CASTRO CAVALCANTE",
+	"value": [{
+		"id_candidate_seq": "230000000009",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "HAMILTON CASTRO CAVALCANTE",
+		"cat_state": "RR",
+		"cat_party": "PSOL",
+		"cat_coalition": "ALTERNATIVA DE ESQUERDA PARA RORAIMA",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "6975",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ANGELA MARIA GOMES PORTELA",
+	"value": [{
+		"id_candidate_seq": "230000000253",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "ANGELA MARIA GOMES PORTELA",
+		"cat_state": "RR",
+		"cat_party": "PT",
+		"cat_coalition": "É PRA FRENTE QUE SE ANDA",
+		"cat_composition": "PT / PDT / PC do B / PV / PTC",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "43897",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "FRANCISCO DE ASSIS RODRIGUES",
+	"value": [{
+		"id_candidate_seq": "230000000345",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "FRANCISCO DE ASSIS RODRIGUES",
+		"cat_state": "RR",
+		"cat_party": "PSB",
+		"cat_coalition": "RORAIMA UNIDA",
+		"cat_composition": "PSB / PMDB / PSDB / PR / PRB / PSD / SD / PROS / PPS / PSC / PMN / PSDC / PT do B / PRTB / PHS / PSL / PPL / PTN / PEN / PRP",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "91578",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "230000000345",
+		"id_candidate_num": "40",
+		"cat_candidate_name": "FRANCISCO DE ASSIS RODRIGUES",
+		"cat_state": "RR",
+		"cat_party": "PSB",
+		"cat_coalition": "RORAIMA UNIDA",
+		"cat_composition": "PSB / PMDB / PSDB / PR / PRB / PSD / SD / PROS / PPS / PSC / PMN / PSDC / PT do B / PRTB / PHS / PSL / PPL / PTN / PEN / PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "104656",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARIA SUELY SILVA CAMPOS",
+	"value": [{
+		"id_candidate_seq": "230000000804",
+		"id_candidate_num": "11",
+		"cat_candidate_name": "MARIA SUELY SILVA CAMPOS",
+		"cat_state": "RR",
+		"cat_party": "PP",
+		"cat_coalition": "'SALVE RORAIMA'",
+		"cat_composition": "PP / PTB / DEM",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "100973",
+		"cat_political_office": "Governador"
+	}, {
+		"id_candidate_seq": "230000000804",
+		"id_candidate_num": "11",
+		"cat_candidate_name": "MARIA SUELY SILVA CAMPOS",
+		"cat_state": "RR",
+		"cat_party": "PP",
+		"cat_coalition": "'SALVE RORAIMA'",
+		"cat_composition": "PP / PTB / DEM",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "127161",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "AFRÂNIO TADEU BOPPRÉ",
+	"value": [{
+		"id_candidate_seq": "240000000058",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "AFRÂNIO TADEU BOPPRÉ",
+		"cat_state": "SC",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "61814",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CLAUDIO ANTONIO VIGNATTI",
+	"value": [{
+		"id_candidate_seq": "240000000141",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "CLAUDIO ANTONIO VIGNATTI",
+		"cat_state": "SC",
+		"cat_party": "PT",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PT",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "534196",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GILMAR SALGADO DOS SANTOS",
+	"value": [{
+		"id_candidate_seq": "240000000197",
+		"id_candidate_num": "16",
+		"cat_candidate_name": "GILMAR SALGADO DOS SANTOS",
+		"cat_state": "SC",
+		"cat_party": "PSTU",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "7420",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JOÃO RAIMUNDO COLOMBO",
+	"value": [{
+		"id_candidate_seq": "240000000207",
+		"id_candidate_num": "55",
+		"cat_candidate_name": "JOÃO RAIMUNDO COLOMBO",
+		"cat_state": "SC",
+		"cat_party": "PSD",
+		"cat_coalition": "COLIGAÇÃO SANTA CATARINA EM PRIMEIRO LUGAR",
+		"cat_composition": "PSD / PRB / PMDB / PR / PTB / PSC / PSDC / PROS / PV / PC do B / PDT / DEM",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "1763735",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARLENE DE SOUZA SOCCAS SAZAN",
+	"value": [{
+		"id_candidate_seq": "240000000311",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "MARLENE DE SOUZA SOCCAS SAZAN",
+		"cat_state": "SC",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "3927",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PAULO ROBERTO BAUER",
+	"value": [{
+		"id_candidate_seq": "240000000459",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "PAULO ROBERTO BAUER",
+		"cat_state": "SC",
+		"cat_party": "PSDB",
+		"cat_coalition": "COLIGAÇÃO MUDA BRASIL; MUDA SANTA CATARINA",
+		"cat_composition": "PP / PSL / PTN / PPS / PRTB / PHS / PTC / PSB / PSDB / PEN / PT do B / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1026722",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JANAINA CONCEIÇÃO DEITOS",
+	"value": [{
+		"id_candidate_seq": "240000000496",
+		"id_candidate_num": "54",
+		"cat_candidate_name": "JANAINA CONCEIÇÃO DEITOS",
+		"cat_state": "SC",
+		"cat_party": "PPL",
+		"cat_coalition": "COLIGAÇÃO SANTA CATARINA PARA TODOS!",
+		"cat_composition": "PPL / PMN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "27437",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ALEXANDRE ROCHA SANTOS PADILHA",
+	"value": [{
+		"id_candidate_seq": "250000000502",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "ALEXANDRE ROCHA SANTOS PADILHA",
+		"cat_state": "SP",
+		"cat_party": "PT",
+		"cat_coalition": "PARA MUDAR DE VERDADE",
+		"cat_composition": "PT / PC do B / PR",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "3888584",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GILBERTO TANOS NATALINI",
+	"value": [{
+		"id_candidate_seq": "250000000896",
+		"id_candidate_num": "43",
+		"cat_candidate_name": "GILBERTO TANOS NATALINI",
+		"cat_state": "SP",
+		"cat_party": "PV",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PV",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "260696",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "RAIMUNDO SENA DE JESUS",
+	"value": [{
+		"id_candidate_seq": "250000001485",
+		"id_candidate_num": "29",
+		"cat_candidate_name": "RAIMUNDO SENA DE JESUS",
+		"cat_state": "SP",
+		"cat_party": "PCO",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCO",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "11118",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GERALDO JOSE RODRIGUES ALCKMIN FILHO",
+	"value": [{
+		"id_candidate_seq": "250000001672",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "GERALDO JOSE RODRIGUES ALCKMIN FILHO",
+		"cat_state": "SP",
+		"cat_party": "PSDB",
+		"cat_coalition": "AQUI É SÃO PAULO",
+		"cat_composition": "PSDB / DEM / PEN / PMN / PT do B / PTC / PTN / SD / PPS / PRB / PSB / PSC / PSDC / PSL",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "12230807",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "GILBERTO MARINGONI DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "250000001684",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "GILBERTO MARINGONI DE OLIVEIRA",
+		"cat_state": "SP",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA",
+		"cat_composition": "PSOL / PSTU",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "187487",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "PAULO ANTONIO SKAF",
+	"value": [{
+		"id_candidate_seq": "250000002087",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "PAULO ANTONIO SKAF",
+		"cat_state": "SP",
+		"cat_party": "PMDB",
+		"cat_coalition": "SÃO PAULO QUER O MELHOR",
+		"cat_composition": "PMDB / PROS / PSD / PP / PDT",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "4594708",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "WALTER PAIVA CIGLIONI",
+	"value": [{
+		"id_candidate_seq": "250000002248",
+		"id_candidate_num": "28",
+		"cat_candidate_name": "WALTER PAIVA CIGLIONI",
+		"cat_state": "SP",
+		"cat_party": "PRTB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PRTB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "22822",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "WAGNER JOSÉ GONÇALVES FARIAS",
+	"value": [{
+		"id_candidate_seq": "250000002332",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "WAGNER JOSÉ GONÇALVES FARIAS",
+		"cat_state": "SP",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "12958",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "LAERCIO BENKO LOPES",
+	"value": [{
+		"id_candidate_seq": "250000002913",
+		"id_candidate_num": "31",
+		"cat_candidate_name": "LAERCIO BENKO LOPES",
+		"cat_state": "SP",
+		"cat_party": "PHS",
+		"cat_coalition": "UNIDOS POR SÃO PAULO",
+		"cat_composition": "PHS / PRP",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "132042",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SÔNIA MEIRE SANTOS AZEVEDO DE JESUS",
+	"value": [{
+		"id_candidate_seq": "260000000005",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "SÔNIA MEIRE SANTOS AZEVEDO DE JESUS",
+		"cat_state": "SE",
+		"cat_party": "PSOL",
+		"cat_coalition": "FRENTE DE ESQUERDA - LUTAR PARA TRANSFORMAR SERGIPE",
+		"cat_composition": "PSOL / PSTU / PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "46346",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "AIRTON COSTA SANTOS",
+	"value": [{
+		"id_candidate_seq": "260000000073",
+		"id_candidate_num": "54",
+		"cat_candidate_name": "AIRTON COSTA SANTOS",
+		"cat_state": "SE",
+		"cat_party": "PPL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PPL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1988",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "JACKSON BARRETO DE LIMA",
+	"value": [{
+		"id_candidate_seq": "260000000077",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "JACKSON BARRETO DE LIMA",
+		"cat_state": "SE",
+		"cat_party": "PMDB",
+		"cat_coalition": "AGORA É O POVO",
+		"cat_composition": "PT / PSD / PC do B / PRTB / PDT / PRP / PROS / PSDC / PMDB / PSB / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "537793",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EDUARDO ALVES DO AMORIM",
+	"value": [{
+		"id_candidate_seq": "260000000085",
+		"id_candidate_num": "20",
+		"cat_candidate_name": "EDUARDO ALVES DO AMORIM",
+		"cat_state": "SE",
+		"cat_party": "PSC",
+		"cat_coalition": "AGORA SIM",
+		"cat_composition": "DEM / PSDB / PP / PT do B / PSC / PTC / PSL / PTB / SD / PV / PPS / PHS / PMN / PR / PEN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "415641",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ALBERTO DOS SANTOS",
+	"value": [{
+		"id_candidate_seq": "260000000171",
+		"id_candidate_num": "19",
+		"cat_candidate_name": "ALBERTO DOS SANTOS",
+		"cat_state": "SE",
+		"cat_party": "PTN",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PTN",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "3034",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "CARLOS POTENGY BARBOSA RIBEIRO",
+	"value": [{
+		"id_candidate_seq": "270000000003",
+		"id_candidate_num": "21",
+		"cat_candidate_name": "CARLOS POTENGY BARBOSA RIBEIRO",
+		"cat_state": "TO",
+		"cat_party": "PCB",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PCB",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1873",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "MARCELO DE CARVALHO MIRANDA",
+	"value": [{
+		"id_candidate_seq": "270000000009",
+		"id_candidate_num": "15",
+		"cat_candidate_name": "MARCELO DE CARVALHO MIRANDA",
+		"cat_state": "TO",
+		"cat_party": "PMDB",
+		"cat_coalition": "A EXPERIENCIA FAZ A MUDANÇA",
+		"cat_composition": "PMDB / PT / PSD / PV",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "1",
+		"num_votes": "360640",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "ATAÍDES DE OLIVEIRA",
+	"value": [{
+		"id_candidate_seq": "270000000108",
+		"id_candidate_num": "90",
+		"cat_candidate_name": "ATAÍDES DE OLIVEIRA",
+		"cat_state": "TO",
+		"cat_party": "PROS",
+		"cat_coalition": "REAGE TOCANTINS",
+		"cat_composition": "PROS / PTN / PPL / PMN / PSDC / PC do B / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "24874",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "SANDOVAL LOBO CARDOSO",
+	"value": [{
+		"id_candidate_seq": "270000000279",
+		"id_candidate_num": "77",
+		"cat_candidate_name": "SANDOVAL LOBO CARDOSO",
+		"cat_state": "TO",
+		"cat_party": "SD",
+		"cat_coalition": "A MUDANÇA QUE A GENTE VE",
+		"cat_composition": "PRB / PP / PDT / PTB / PSL / PSC / PR / PPS / DEM / PRTB / PHS / PTC / PSB / PRP / PSDB / PEN / SD",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "314392",
+		"cat_political_office": "Governador"
+	}]
+}, {
+	"key": "EULERLENE ANGELIM GOMES",
+	"value": [{
+		"id_candidate_seq": "270000000621",
+		"id_candidate_num": "50",
+		"cat_candidate_name": "EULERLENE ANGELIM GOMES",
+		"cat_state": "TO",
+		"cat_party": "PSOL",
+		"cat_coalition": "PARTIDO ISOLADO",
+		"cat_composition": "PSOL",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "1",
+		"num_votes": "1234",
+		"cat_political_office": "Governador"
+	}]
+}]
