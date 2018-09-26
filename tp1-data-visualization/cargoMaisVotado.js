@@ -1,6 +1,6 @@
-var margin = {top: 30, right: 100, bottom: 50, left: 100},
+var margin = {top: 20, right: 100, bottom: 100, left: 100},
 width = window.innerWidth - margin.left - margin.right,
-height = 600 - margin.top - margin.bottom;
+height = window.innerHeight - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -76,7 +76,9 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
    chart.append("g")
        .attr("transform", "translate(0," + (height+0.5) + ")")
        .attr("class", "xAxis")
-       .call(d3.axisBottom(x));
+       .call(d3.axisBottom(x))
+         .selectAll(".tick text")
+         .call(wrap, x.bandwidth()/x.padding());
 
    chart.append("g")
       .call(d3.axisLeft(y)
@@ -96,8 +98,8 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
       .attr("y", function(d) { return y(d[1]);})
       .attr("height", function(d) { return (y(d[0]) - y(d[1]));})
       .attr("width", x.bandwidth())
-      .on("mouseover", mouseoverBar)
-      .on("mouseout", mouseoutBar);
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
 
       // chart.selectAll(".bar")
       //    .data(layers)
@@ -149,23 +151,23 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
       .text(function(d) {return f(d[2]/1000000) + "M";})
 
    chart.selectAll("g .xAxis").selectAll(".tick")
-      .on("mouseover", mouseoverXAxis)
-      .on("mouseout", mouseoutXAxis);
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
 
    chart.append("text")
-      .attr("transform", "translate(" + (width/2) + " ," + (height + margin.top + 20) + ")")
+      .attr("transform", "translate(" + (width/2) + " ," + (height + 50) + ")")
       .attr("class", "axis-label")
       .style("text-anchor", "middle")
-      .text("Date");
+      .text("Cargo");
 
    chart.append("text")
       .attr("transform", "rotate(-90)")
       .attr("class", "axis-label")
-      .attr("y", 0 - margin.left)
-      .attr("x",0 - (height / 2))
+      .attr("y", 25 - margin.left)
+      .attr("x", 0 - (height / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .text("Value");
+      .text("Quantidade de Votos");
 
    // chart.select("body").select(".chart-tooltip")
    //    .append("div")
@@ -205,10 +207,8 @@ function stackMax(serie) {
   return d3.max(serie, function(d) { return d[1]; });
 }
 
-function mouseoverBar(d,i) {
+function mouseover(d,i) {
 
-   // d3.select(this)
-   //    .style("fill", '#d95f02');
    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
       .text((layers[i][1]+layers[i][2]).toLocaleString('pt-br'));
 
@@ -216,7 +216,7 @@ function mouseoverBar(d,i) {
       .text(layers[i][1].toLocaleString('pt-br'));
 
    d3.selectAll(".label2nd").filter(function(g, j){ return i === j;})
-      .text(layers[i][1].toLocaleString('pt-br'));
+      .text(layers[i][2].toLocaleString('pt-br'));
 
    // d3.select(".chart-tooltip")
    //    .style("display", "inline")
@@ -225,32 +225,7 @@ function mouseoverBar(d,i) {
    //    .style("top", y(d.value) + "px");
 }
 
-function mouseoutBar(d, i) {
-   // d3.select(this)
-   //    .style("fill", '#1b9e77');
-
-   // d3.select(".chart-tooltip")
-   //    .style("display", "none");
-
-   d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
-      .text(f((layers[i][1]+layers[i][2])/1000000) + "M");
-
-   d3.selectAll(".label1st").filter(function(g, j){ return i === j;})
-      .text(f(layers[i][1]/1000000) + "M");
-}
-
-function mouseoverXAxis(d,i) {
-
-   var bar = d3.selectAll(".stack-bar");
-
-   d3.selectAll(".labelTotal").filter(function(d, j){ return i === j;})
-      .text((layers[i][1]+layers[i][2]).toLocaleString('pt-br'));
-
-   d3.selectAll(".label1st").filter(function(d, j){ return i === j;})
-      .text(layers[i][1].toLocaleString('pt-br'));
-}
-
-function mouseoutXAxis(d,i) {
+function mouseout(d, i) {
 
    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
       .text(f((layers[i][1]+layers[i][2])/1000000) + "M");
@@ -258,7 +233,60 @@ function mouseoutXAxis(d,i) {
    d3.selectAll(".label1st").filter(function(g, j){ return i === j;})
       .text(f(layers[i][1]/1000000) + "M");
 
-   d3.select(".chart-tooltip")
-      .transition().duration(200)
-      .style("opacity", 0);
+   d3.selectAll(".label2nd").filter(function(g, j){ return i === j;})
+      .text(f(layers[i][2]/1000000) + "M");
+}
+
+// function mouseoverXAxis(d,i) {
+//
+//    // var bar = d3.selectAll(".stack-bar");
+//
+//    d3.selectAll(".labelTotal").filter(function(d, j){ return i === j;})
+//       .text((layers[i][1]+layers[i][2]).toLocaleString('pt-br'));
+//
+//    d3.selectAll(".label1st").filter(function(d, j){ return i === j;})
+//       .text(layers[i][1].toLocaleString('pt-br'));
+//
+//    d3.selectAll(".label2nd").filter(function(d, j){ return i === j;})
+//       .text(layers[i][2].toLocaleString('pt-br'));
+// }
+//
+// function mouseoutXAxis(d,i) {
+//
+//    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
+//       .text(f((layers[i][1]+layers[i][2])/1000000) + "M");
+//
+//    d3.selectAll(".label1st").filter(function(g, j){ return i === j;})
+//       .text(f(layers[i][1]/1000000) + "M");
+//
+//    d3.selectAll(".label2nd").filter(function(g, j){ return i === j;})
+//       .text(f(layers[i][2]/1000000) + "M");
+//
+//    d3.select(".chart-tooltip")
+//       .transition().duration(200)
+//       .style("opacity", 0);
+// }
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
 }

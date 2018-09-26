@@ -18,13 +18,13 @@ var yAxis = d3.axisLeft()
     .scale(y);
 
 var x1 = d3.scaleBand()
-  .rangeRound([0, width])
+  .rangeRound([0, width/2])
   .padding(0.5);
 
 // console.log(x);
 // console.log(x.bandwidth());
 var y1 = d3.scaleLinear()
-  .range([height, 0]);
+  .range([height*.7, 0]);
 
 var xAxis1 = d3.axisBottom()
   .scale(x1);
@@ -38,17 +38,17 @@ function make_y_gridlines() {
       .ticks(10)
 }
 
+// gridlines in y axis function
+function make_y_gridlines1() {
+  return d3.axisLeft(y1)
+      .ticks(10)
+}
+
 var chart = d3.select(".chart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-var chart1 = d3.select(".chart1")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // chart.margin().left = 120;
 var f = d3.format(",.2f");
@@ -91,13 +91,6 @@ d3.csv("files/presidente.csv").then(function(data){
           .tickFormat("")
       );
 
-   chart1.append("g")
-      .attr("class", "grid")
-      .call(make_y_gridlines()
-          .tickSize(-width)
-          .tickFormat("")
-      );
-
    chart.append("g")
        .attr("transform", "translate(0," + (height+0.5) + ")")
        .attr("class", "xAxis")
@@ -105,10 +98,10 @@ d3.csv("files/presidente.csv").then(function(data){
        .selectAll(".tick text")
          .call(wrap, x.bandwidth()/x.padding());
 
-      chart.append("g")
-         .call(d3.axisLeft(y)
-            .tickFormat(d3.format("~s"))
-      );
+   chart.append("g")
+      .call(d3.axisLeft(y)
+         .tickFormat(d3.format("~s"))
+   );
 
    chart.selectAll(".bar")
       .data(votes)
@@ -121,6 +114,14 @@ d3.csv("files/presidente.csv").then(function(data){
       .on("mouseover", mouseoverBar)
       .on("mouseout", mouseoutBar);
 
+   // chart.selectAll(".chart1-bg")
+   //    .append("rect")
+   //    .attr("class", "chart1-bg")
+   //    .attr("x", widht/2)
+   //    .attr("y", height*.7)
+   //    .attr("height", height)
+   //    .attr("width", width);
+
    chart.selectAll(".label")
       .data(votes)
       .enter().append("text")
@@ -129,8 +130,32 @@ d3.csv("files/presidente.csv").then(function(data){
       .attr('y', function(d) {return y(d.value) - 5;})
       .text(function(d) {return f(d.value/1000000).toLocaleString('pt-br') + "M";});
 
+   d3.select(".chart")
+      .append("svg")
+      .attr("class", "chart1");
+
+   var chart1 = d3.select(".chart1")
+     .attr("width", width + margin.left + margin.right)
+     .attr("height", height + margin.top + margin.bottom)
+     .append("g")
+     .attr("transform", "translate(" + (width/2 + 100) + "," + (margin.top + 30) + ")");
+
+   chart1.append("rect")
+      .attr("width", width/2 + 60)
+      .attr("height", height*.7 + margin.top + margin.bottom)
+      .attr("transform", "translate(" + - 50 + "," + -50 + ")")
+      .style("fill", "white")
+      .style("stroke", "black");
+
    chart1.append("g")
-       .attr("transform", "translate(0," + (height+0.5) + ")")
+      .attr("class", "grid")
+      .call(make_y_gridlines1()
+          .tickSize(-width/2)
+          .tickFormat("")
+      );
+
+   chart1.append("g")
+       .attr("transform", "translate(0," + (height*.7+0.5) + ")")
        .attr("class", "xAxis")
        .call(d3.axisBottom(x1))
        .selectAll(".tick text")
@@ -147,7 +172,7 @@ d3.csv("files/presidente.csv").then(function(data){
       .attr("class", "bar")
       .attr("x", function(d) { return x1(candidateNames[d.key])})
       .attr("y", function(d) { return y1(d.value); })
-      .attr("height", function(d) { return height - y1(d.value); })
+      .attr("height", function(d) { return height*.7 - y1(d.value); })
       .attr("width", x1.bandwidth())
       .on("mouseover", mouseoverBar)
       .on("mouseout", mouseoutBar);
