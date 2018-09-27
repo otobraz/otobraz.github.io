@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 100, bottom: 100, left: 100},
 width = 1400 - margin.left - margin.right,
-height = 750 - 78 - margin.top - margin.bottom;
+height = 675 - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -35,13 +35,13 @@ var yAxis1 = d3.axisLeft()
 // gridlines in y axis function
 function make_y_gridlines() {
   return d3.axisLeft(y)
-      .ticks(10)
+      .ticks(8)
 }
 
 // gridlines in y axis function
 function make_y_gridlines1() {
   return d3.axisLeft(y1)
-      .ticks(10)
+      .ticks(8)
 }
 
 var chart = d3.select(".chart")
@@ -138,7 +138,7 @@ d3.csv("data/presidente.csv").then(function(data){
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
      .append("g")
-     .attr("transform", "translate(" + (width/2 + 40) + "," + (margin.top + 60) + ")");
+     .attr("transform", "translate(" + (width/2 + 40) + "," + (margin.top + 45) + ")");
 
    chart1.append("rect")
       .attr("width", width/2 + 150)

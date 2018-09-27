@@ -1,5 +1,5 @@
 // Define map size on screen
-var margin = {top: 100, right: 50, bottom: 150, left: 50},
+var margin = {top: 125, right: 50, bottom: 100, left: 50},
 width = window.innerWidth / 2.5,
 height = window.innerHeight - margin.top - margin.bottom;
 

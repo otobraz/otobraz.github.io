@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 100, bottom: 100, left: 100},
 width = 1400 - margin.left - margin.right,
-height = 750 - 78 - margin.top - margin.bottom;
+height = 675 - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
