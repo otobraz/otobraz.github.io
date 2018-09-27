@@ -1,10 +1,10 @@
 // Define map size on screen
-var margin = {top: 100, right: 50, bottom: 100, left: 50},
-width = window.innerWidth / 2.4,
+var margin = {top: 100, right: 50, bottom: 150, left: 50},
+width = window.innerWidth / 2.5,
 height = window.innerHeight - margin.top - margin.bottom;
 
 var svg = d3.selectAll(".chart")
-.attr("width", '100%')
+.attr("width", width)
 .attr("height", height)
 
 var g = svg.append("g")
@@ -31,18 +31,18 @@ var g = svg.append("g")
 var projection = d3.geoMercator()
 .scale(width)
 .center([-52, -15])
-.translate([width / 2, height / 2]);
+.translate([width / 2, height - margin.top - margin.bottom]);
 
 var path = d3.geoPath()
 .projection(projection);
 
 // Load data (asynchronously)
 
-var files = ['./br-states.json', 'files/eleicoes_2014.csv'];
+var files = ['data/br-states.json', 'data/eleicoes_2014.csv'];
 var promises = [];
 
-promises.push(d3.json('./br-states.json'));
-promises.push(d3.csv('files/eleicoes_2014.csv'));
+promises.push(d3.json('data/br-states.json'));
+promises.push(d3.csv('data/eleicoes_2014.csv'));
 
 Promise.all(promises)
    .then(makeMap)
@@ -112,7 +112,7 @@ function makeMap(data) {
    // .attr("x", width / 2 + 150)
    // .attr("y", function(d, i){ return i * 25 + height / 2 + 65; })
    // .text(function(d){ return d.party; });
-   var legend = d3.select("#legend")
+   var legend = d3.select(".legend")
       .attr("width", '100%')
       .attr("height", '100%');
 
@@ -120,12 +120,10 @@ function makeMap(data) {
    .data(colors)
    .enter().append("rect")
    .attr("width", 20).attr("height", 20)
-   // .attr("rx", 2).attr("ry", 2)
+   .attr("rx", 2).attr("ry", 2)
    .attr("y", function(d, i){ if(i>=2){ return height / 2 + 75; } return height / 2;})
    .attr("x", function(d, i) { if(i == 0 || i == 2) return 25; return 125;})
-   .style("stroke", 'black')
-   .style("fill", function(d){ return d.color;})
-   .style("opacity", 1);
+   .style("fill", function(d){ return d.color;});
    //
    var text = legend.selectAll("text")
    .data(colors)

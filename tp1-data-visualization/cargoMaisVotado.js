@@ -1,10 +1,10 @@
 var margin = {top: 20, right: 100, bottom: 100, left: 100},
-width = window.innerWidth - margin.left - margin.right,
-height = window.innerHeight - 78 - margin.top - margin.bottom;
+width = 1400 - margin.left - margin.right,
+height = 750 - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
-    .padding(0.5);
+    .padding(0.6);
 
 var y = d3.scaleLinear()
     .range([height, 0]);
@@ -21,7 +21,7 @@ var chart = d3.select(".chart")
 var f = d3.format(".2f");
 var layers;
 
-d3.csv("files/eleicoes_2014.csv").then(function(data){
+d3.csv("data/eleicoes_2014.csv").then(function(data){
 
    var votes = d3.nest()
    .key(function(d) { return d.cat_political_office;})
@@ -30,7 +30,11 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
       return d3.sum(d, function(g) {return g.num_votes; })
    }).entries(data.filter(function(d) { return d.cat_political_office != "";}));
 
-   var xData = ["1", "2"];
+   // var xData = ["1", "2"];
+   var colors = [
+      {turn: "1", color:"#1b9e77"},
+      {turn: "2", color:"#d95f02"}
+   ];
    // console.log(dataIntermediate);
 
    // votes.sort(function(x, y){ return x.value < y.value;});
@@ -47,7 +51,7 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
 
    layers.sort(function(d,g){return (d[1]+d[2]) < (g[1] + g[2]);});
 
-   var dataStackLayout = d3.stack().keys(xData)
+   var dataStackLayout = d3.stack().keys([colors[0].turn, colors[1].turn])
       .offset(d3.stackOffsetDiverging)
       (layers);
 
@@ -155,7 +159,7 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
       .on("mouseout", mouseout);
 
    chart.append("text")
-      .attr("transform", "translate(" + (width/2) + " ," + (height + 50) + ")")
+      .attr("transform", "translate(" + (width/2) + " ," + (height + 65) + ")")
       .attr("class", "axis-label")
       .style("text-anchor", "middle")
       .text("Cargo");
@@ -163,11 +167,31 @@ d3.csv("files/eleicoes_2014.csv").then(function(data){
    chart.append("text")
       .attr("transform", "rotate(-90)")
       .attr("class", "axis-label")
-      .attr("y", 25 - margin.left)
-      .attr("x", 0 - (height / 2))
+      .attr("y", - margin.left)
+      .attr("x", - (height / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Quantidade de Votos");
+
+   var legend = d3.select(".chart")
+      .append("svg")
+      .attr("class", "legend");
+
+   legend.selectAll("rect")
+   .data(colors)
+   .enter().append("rect")
+   .attr("width", 20).attr("height", 20)
+   .attr("rx", 2).attr("ry", 2)
+   .attr("y", function(d, i){ return y(200000000 - i*20000000) + 20 - 20*i;})
+   .attr("x", width - margin.left)
+   .style("fill", function(d,i){ return colors[i].color;})
+   //
+    legend.selectAll("text")
+   .data(colors)
+   .enter().append("text")
+   .attr("y", function(d, i){ return y(200000000 - i*20000000) + 35 - 20*i;})
+   .attr("x", width - margin.left + 25)
+   .text(function(d, i){ return colors[i].turn + "º Turno"});
 
    // chart.select("body").select(".chart-tooltip")
    //    .append("div")

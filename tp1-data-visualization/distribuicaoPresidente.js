@@ -1,6 +1,6 @@
-var margin = {top: 30, right: 100, bottom: 80, left: 100},
-width = window.innerWidth - margin.left - margin.right,
-height = 600 - margin.top - margin.bottom;
+var margin = {top: 20, right: 100, bottom: 100, left: 100},
+width = 1400 - margin.left - margin.right,
+height = 750 - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -18,13 +18,13 @@ var yAxis = d3.axisLeft()
     .scale(y);
 
 var x1 = d3.scaleBand()
-  .rangeRound([0, width/2])
+  .rangeRound([0, width*.55])
   .padding(0.5);
 
 // console.log(x);
 // console.log(x.bandwidth());
 var y1 = d3.scaleLinear()
-  .range([height*.7, 0]);
+  .range([height*.65, 0]);
 
 var xAxis1 = d3.axisBottom()
   .scale(x1);
@@ -61,7 +61,7 @@ var candidateNames = {
    "21": "Mauro Iasi", "29": "Rui Costa Pimenta",
 };
 
-d3.csv("files/presidente.csv").then(function(data){
+d3.csv("data/presidente.csv").then(function(data){
 
    var votes = d3.nest()
    .key(function(d) { return d.id_candidate_num;})
@@ -138,12 +138,12 @@ d3.csv("files/presidente.csv").then(function(data){
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
      .append("g")
-     .attr("transform", "translate(" + (width/2 + 100) + "," + (margin.top + 30) + ")");
+     .attr("transform", "translate(" + (width/2 + 40) + "," + (margin.top + 60) + ")");
 
    chart1.append("rect")
-      .attr("width", width/2 + 60)
-      .attr("height", height*.7 + margin.top + margin.bottom)
-      .attr("transform", "translate(" + - 50 + "," + -50 + ")")
+      .attr("width", width/2 + 150)
+      .attr("height", height*.65 + margin.top + margin.bottom)
+      .attr("transform", "translate(" + -80 + "," + -50 + ")")
       .style("fill", "white")
       .style("stroke", "black");
 
@@ -155,7 +155,7 @@ d3.csv("files/presidente.csv").then(function(data){
       );
 
    chart1.append("g")
-       .attr("transform", "translate(0," + (height*.7+0.5) + ")")
+       .attr("transform", "translate(0," + (height*.65+0.5) + ")")
        .attr("class", "xAxis")
        .call(d3.axisBottom(x1))
        .selectAll(".tick text")
@@ -172,7 +172,7 @@ d3.csv("files/presidente.csv").then(function(data){
       .attr("class", "bar")
       .attr("x", function(d) { return x1(candidateNames[d.key])})
       .attr("y", function(d) { return y1(d.value); })
-      .attr("height", function(d) { return height*.7 - y1(d.value); })
+      .attr("height", function(d) { return height*.65 - y1(d.value); })
       .attr("width", x1.bandwidth())
       .on("mouseover", mouseoverBar)
       .on("mouseout", mouseoutBar);
@@ -192,6 +192,22 @@ d3.csv("files/presidente.csv").then(function(data){
    d3.selectAll("g .xAxis").selectAll(".tick")
       .on("mouseover", mouseoverXAxis)
       .on("mouseout", mouseoutXAxis);
+
+   chart.append("text")
+      .attr("transform", "translate(" + (width/2) + " ," + (height + 65) + ")")
+      .attr("class", "axis-label")
+      .style("text-anchor", "middle")
+      .text("Candidatos");
+
+   chart.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("class", "axis-label")
+      .attr("y", - margin.left)
+      .attr("x", - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Quantidade de Votos");
+
    // chart.select("body").select(".chart-tooltip")
    //    .append("div")
    //    .attr("class", "chart-tooltip")

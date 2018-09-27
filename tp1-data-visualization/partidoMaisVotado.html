@@ -9,7 +9,8 @@
    <!-- Bootstrap -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-   <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+   <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
 
    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +20,34 @@
    <![endif]-->
 </head>
 <body>
+
+   <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Trabalho Prático - Visualização de Dados</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="partindoMaisVotado.html">Partido mais votado
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cargoMaisVotado.html">Cargo mais votado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="distribuicaoPresidente.html">Votos para presidente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://github.com/otobraz">Oto Braz Assunção</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
    <div class="title">
       <h1>Eleições de 2014: Partidos mais votados em cada estado</h1>
@@ -32,7 +61,7 @@
             <svg class="chart"></svg>
          </div>
          <div class="col-md-2">
-            <svg id="legend"></svg>
+            <svg class="legend"></svg>
          </div>
          <div class="col-md-5">
             <h3 class="subtitle">2º Turno</h3>
