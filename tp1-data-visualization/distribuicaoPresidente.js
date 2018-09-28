@@ -1,6 +1,25 @@
-var margin = {top: 20, right: 100, bottom: 100, left: 100},
+var margin = {top: 20, right: 200, bottom: 100, left: 200},
 width = 1400 - margin.left - margin.right,
-height = 675 - 78 - margin.top - margin.bottom;
+height = 650 - 78 - margin.top - margin.bottom;
+
+var f = d3.format(",.2f");
+
+var tickValues = [
+   5000000, 10000000, 15000000, 20000000, 25000000,
+   30000000, 35000000, 40000000, 45000000
+];
+
+var tickValues1 = [
+   300000, 600000, 900000, 1200000, 1500000
+];
+
+var candidateNames = {
+   "13": "Dilma ", "45": "Aécio Neves", "40": "Marina Silva",
+   "50": "Luciana Genro", "20": "Pastor Everaldo",
+   "43": "Eduardo Jorge", "28": "Levy Fidelix",
+   "16": "Zé Maria", "27": "Eymael",
+   "21": "Mauro Iasi", "29": "Rui Costa Pimenta",
+};
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -15,7 +34,9 @@ var xAxis = d3.axisBottom()
     .scale(x);
 
 var yAxis = d3.axisLeft()
-    .scale(y);
+    .scale(y)
+    .tickFormat(d3.format("~s"))
+    .ticks(5);
 
 var x1 = d3.scaleBand()
   .rangeRound([0, width*.55])
@@ -30,18 +51,17 @@ var xAxis1 = d3.axisBottom()
   .scale(x1);
 
 var yAxis1 = d3.axisLeft()
-  .scale(y1);
+  .scale(y1)
+  .tickFormat(d3.format("~s"));
 
 // gridlines in y axis function
 function make_y_gridlines() {
-  return d3.axisLeft(y)
-      .ticks(8)
+  return d3.axisLeft(y).tickValues(tickValues)
 }
 
 // gridlines in y axis function
 function make_y_gridlines1() {
-  return d3.axisLeft(y1)
-      .ticks(8)
+  return d3.axisLeft(y1).tickValues(tickValues1)
 }
 
 var chart = d3.select(".chart")
@@ -49,17 +69,6 @@ var chart = d3.select(".chart")
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-// chart.margin().left = 120;
-var f = d3.format(",.2f");
-
-var candidateNames = {
-   "13": "Dilma ", "45": "Aécio Neves", "40": "Marina Silva",
-   "50": "Luciana Genro", "20": "Pastor Everaldo",
-   "43": "Eduardo Jorge", "28": "Levy Fidelix",
-   "16": "Zé Maria", "27": "Eymael",
-   "21": "Mauro Iasi", "29": "Rui Costa Pimenta",
-};
 
 d3.csv("data/presidente.csv").then(function(data){
 
@@ -75,13 +84,13 @@ d3.csv("data/presidente.csv").then(function(data){
 
    votes1.shift(); votes1.shift(); votes1.shift();
 
-   console.log(votes);
+   // console.log(votes);
    // votes.shift(); votes.shift(); votes.shift();
    x.domain(votes.map(function(d) { return candidateNames[d.key]; }));
-   y.domain([0, d3.max(votes, function(d) { return d.value; })]);
+   y.domain([0, 50000000]);
 
    x1.domain(votes1.map(function(d) { return candidateNames[d.key]; }));
-   y1.domain([0, d3.max(votes1, function(d) { return d.value; })]);
+   y1.domain([0, 1800000]);
 
    // add the Y gridlines
    chart.append("g")
@@ -94,14 +103,11 @@ d3.csv("data/presidente.csv").then(function(data){
    chart.append("g")
        .attr("transform", "translate(0," + (height+0.5) + ")")
        .attr("class", "xAxis")
-       .call(d3.axisBottom(x))
+       .call(xAxis)
        .selectAll(".tick text")
          .call(wrap, x.bandwidth()/x.padding());
 
-   chart.append("g")
-      .call(d3.axisLeft(y)
-         .tickFormat(d3.format("~s"))
-   );
+   chart.append("g").call(yAxis);
 
    chart.selectAll(".bar")
       .data(votes)
@@ -138,12 +144,12 @@ d3.csv("data/presidente.csv").then(function(data){
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
      .append("g")
-     .attr("transform", "translate(" + (width/2 + 40) + "," + (margin.top + 45) + ")");
+     .attr("transform", "translate(" + (width/2 + 130) + "," + (margin.top + 20) + ")");
 
    chart1.append("rect")
-      .attr("width", width/2 + 150)
-      .attr("height", height*.65 + margin.top + margin.bottom)
-      .attr("transform", "translate(" + -80 + "," + -50 + ")")
+      .attr("width", width/2 + 120)
+      .attr("height", height*.82)
+      .attr("transform", "translate(" + -50 + "," + -10 + ")")
       .style("fill", "white")
       .style("stroke", "black");
 
@@ -161,9 +167,8 @@ d3.csv("data/presidente.csv").then(function(data){
        .selectAll(".tick text")
          .call(wrap, x1.bandwidth()/x1.padding());
 
-      chart1.append("g")
-         .call(d3.axisLeft(y1)
-            .tickFormat(d3.format("~s"))
+   chart1.append("g").call(yAxis1
+         .tickValues(tickValues1)
       );
 
    chart1.selectAll(".bar")
@@ -202,11 +207,11 @@ d3.csv("data/presidente.csv").then(function(data){
    chart.append("text")
       .attr("transform", "rotate(-90)")
       .attr("class", "axis-label")
-      .attr("y", - margin.left)
+      .attr("y", - 100)
       .attr("x", - (height / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .text("Quantidade de Votos");
+      .text("Votos");
 
    // chart.select("body").select(".chart-tooltip")
    //    .append("div")

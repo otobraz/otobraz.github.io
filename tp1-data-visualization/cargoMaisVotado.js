@@ -1,10 +1,10 @@
-var margin = {top: 20, right: 100, bottom: 100, left: 100},
+var margin = {top: 20, right: 200, bottom: 100, left: 200},
 width = 1400 - margin.left - margin.right,
-height = 675 - 78 - margin.top - margin.bottom;
+height = 650 - 78 - margin.top - margin.bottom;
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
-    .padding(0.6);
+    .padding(0.5);
 
 var y = d3.scaleLinear()
     .range([height, 0]);
@@ -35,6 +35,11 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
       {turn: "1", color:"#1b9e77"},
       {turn: "2", color:"#d95f02"}
    ];
+
+   var tickValues = [
+      25000000, 50000000, 75000000, 100000000,
+      125000000, 150000000, 175000000, 200000000
+   ];
    // console.log(dataIntermediate);
 
    // votes.sort(function(x, y){ return x.value < y.value;});
@@ -57,13 +62,16 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
 
    x.domain(layers.map(function(d) { return d.x; }));
 
-   y.domain([d3.min(dataStackLayout, stackMin), d3.max(dataStackLayout, stackMax)]);
+   y.domain([d3.min(dataStackLayout, stackMin), 225000000]);
 
    var xAxis = d3.axisBottom()
      .scale(x);
 
    var yAxis = d3.axisLeft()
-     .scale(y);
+      .scale(y)
+      .tickValues(tickValues);
+
+   // yAxis.tickValues(10, 20, 30);
 
    // x.domain(votes.map(function(d) { return d.key; }));
    // y.domain([d3.min(dataStackLayout, stackMin), d3.max(dataStackLayout, stackMax)])
@@ -80,12 +88,12 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
    chart.append("g")
        .attr("transform", "translate(0," + (height+0.5) + ")")
        .attr("class", "xAxis")
-       .call(d3.axisBottom(x))
+       .call(xAxis)
          .selectAll(".tick text")
          .call(wrap, x.bandwidth()/x.padding());
 
    chart.append("g")
-      .call(d3.axisLeft(y)
+      .call(yAxis
          .tickFormat(d3.format("~s"))
    );
 
@@ -118,8 +126,7 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
 
    // gridlines in y axis function
    function make_y_gridlines() {
-       return d3.axisLeft(y)
-           .ticks(10)
+       return d3.axisLeft(y).tickValues(tickValues);
    }
 
    chart.selectAll(".labelTotal")
@@ -167,30 +174,32 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
    chart.append("text")
       .attr("transform", "rotate(-90)")
       .attr("class", "axis-label")
-      .attr("y", - margin.left)
+      .attr("y", 0 - 100)
       .attr("x", - (height / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .text("Quantidade de Votos");
+      .text("Votos");
 
    var legend = d3.select(".chart")
       .append("svg")
       .attr("class", "legend");
 
+   // var legend = d3.select(".legend");
+
    legend.selectAll("rect")
    .data(colors)
    .enter().append("rect")
-   .attr("width", 20).attr("height", 20)
+   .attr("width", 10).attr("height", 10)
    .attr("rx", 2).attr("ry", 2)
-   .attr("y", function(d, i){ return y(200000000 - i*20000000) + 20 - 20*i;})
-   .attr("x", width - margin.left)
+   .attr("y", margin.top - 10)
+   .attr("x", function(d, i){ return width/2 + margin.left/2 + 100*i + 20;})
    .style("fill", function(d,i){ return colors[i].color;})
    //
     legend.selectAll("text")
    .data(colors)
    .enter().append("text")
-   .attr("y", function(d, i){ return y(200000000 - i*20000000) + 35 - 20*i;})
-   .attr("x", width - margin.left + 25)
+   .attr("y", margin.top)
+   .attr("x", function(d, i){ return width/2 + margin.left/2 + 100*i + 34;})
    .text(function(d, i){ return colors[i].turn + "º Turno"});
 
    // chart.select("body").select(".chart-tooltip")
