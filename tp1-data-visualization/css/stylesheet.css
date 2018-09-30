@@ -89,3 +89,12 @@ g{
    font-size: 1.1vw;
    font-weight: bold;
 }
+
+.aux-axis-label{
+   font-size: 0.9vw;
+}
+
+.aux-title{
+   font-size: 1vw;
+   font-weight: bold;
+}

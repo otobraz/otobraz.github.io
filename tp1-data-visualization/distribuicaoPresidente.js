@@ -167,7 +167,7 @@ d3.csv("data/presidente.csv").then(function(data){
      .append("g")
      .attr("transform", "translate(" + (width/2 + 130) + "," + (margin.top + 20) + ")");
 
-   // adiciona barras ao gráfico auxiliar
+   // adiciona retangulo branco como fundo para gráfico auxiliar
    auxChart.append("rect")
       .attr("width", width/2 + 120)
       .attr("height", height*.82)
@@ -214,6 +214,33 @@ d3.csv("data/presidente.csv").then(function(data){
       .attr('x', function(d) {return auxCX(candidateNames[d.key]) + auxCX.bandwidth()/2;})
       .attr('y', function(d) {return auxCY(d.value) - 5;})
       .text(function(d) {return f(d.value/1000000).toLocaleString('pt-br') + "M";});
+
+   // adiciona título do grafo auxiliar
+   auxChart.append("text")
+      // .attr("transform", "rotate(-90)")
+      .attr("class", "aux-title")
+      .attr("y", 0)
+      .attr("x", 270)
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Candidatos com menos de 10M de votos");
+
+   // adiciona label para explicar o eixo X do grafo auxiliar
+   auxChart.append("text")
+      .attr("transform", "translate(" + 250 + " ," + 350 + ")")
+      .attr("class", "aux-axis-label")
+      .style("text-anchor", "middle")
+      .text("Candidatos");
+
+   // adiciona label para explicar o eixo Y do grafo auxiliar
+   auxChart.append("text")
+      // .attr("transform", "rotate(-90)")
+      .attr("class", "aux-axis-label")
+      .attr("y", 0)
+      .attr("x", -25)
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Votos");
 
    // adiciona os comportamentos "mouseover" e "mouseout" para os ticks do eixo X
    d3.selectAll("g .xAxis").selectAll(".tick")
