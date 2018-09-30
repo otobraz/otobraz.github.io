@@ -37,7 +37,6 @@
 .label{
    color: #000000;
    font-size: 1vw;
-   /* font-weight: bold; */
    text-anchor: middle;
 }
 
@@ -50,19 +49,9 @@ header {
    text-align: center;
 }
 
-.chart{
-   /* padding-top: 10px; */
-   text-align: center;
-}
-
 g{
    text-align:center;
 }
-
-/* hr{
-   background-color: #FFDD00;
-   height: 1px;
-} */
 
 @media (min-width: 768px) {
 .navbar-brand.abs
@@ -79,7 +68,7 @@ g{
 }
 
 .bar {
-   fill: #1b9e77;
+   fill: #377eb8;
 }
 
 .grid line {
@@ -100,9 +89,3 @@ g{
    font-size: 1.1vw;
    font-weight: bold;
 }
-
-/* .legend rect{
-   stroke: black;
-   opacity: 1;
-   stroke-width: 1.5;
-} */

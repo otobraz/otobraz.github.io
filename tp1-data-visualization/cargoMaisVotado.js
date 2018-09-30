@@ -1,89 +1,96 @@
+// define margens e tamanho da tela
 var margin = {top: 20, right: 200, bottom: 100, left: 200},
 width = 1400 - margin.left - margin.right,
 height = 650 - 78 - margin.top - margin.bottom;
 
+var f = d3.format(".2f");  // formatador dos números
+var layers;                // camadas do gráfico empilhado
+
+// cores para cada turno
+var colors = [
+   {turn: "1", color:"#377eb8"},
+   {turn: "2", color:"#e41a1c"}
+];
+
+// valores a serem exibidos no eixo Y
+var tickValues = [ 40000000, 80000000, 120000000, 160000000, 200000000];
+
+// valores para as grids
+var gridTickValues = [
+   20000000, 40000000, 60000000, 80000000,
+   100000000, 120000000, 140000000, 160000000,
+   180000000, 200000000
+];
+
+// definição das escalas
+
 var x = d3.scaleBand()
     .rangeRound([0, width])
-    .padding(0.5);
+    .padding(0.5);            // definição da distância entre as barras
 
 var y = d3.scaleLinear()
     .range([height, 0]);
-//
 
+// define e cria container para a visualização
 var chart = d3.select(".chart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// chart.margin().left = 120;
-
-var f = d3.format(".2f");
-var layers;
-
+// lê os dados e gera o gráfico de barra
 d3.csv("data/eleicoes_2014.csv").then(function(data){
 
+   // leitura e processamento dos dados usando a função nest
    var votes = d3.nest()
-   .key(function(d) { return d.cat_political_office;})
-   .key(function(d) { return d.num_turn;})
-   .rollup(function(d) {
+   .key(function(d) { return d.cat_political_office;})   // define cargo como 1ª chave
+   .key(function(d) { return d.num_turn;})               // define turno como 2ª chava
+   .rollup(function(d) {                                 // faz soma do número de votos
       return d3.sum(d, function(g) {return g.num_votes; })
-   }).entries(data.filter(function(d) { return d.cat_political_office != "";}));
+   }).entries(data.filter(function(d) { return d.cat_political_office != "";}));    // desconsidera candidatos sem cargo definido
 
-   // var xData = ["1", "2"];
-   var colors = [
-      {turn: "1", color:"#1b9e77"},
-      {turn: "2", color:"#d95f02"}
-   ];
-
-   var tickValues = [
-      25000000, 50000000, 75000000, 100000000,
-      125000000, 150000000, 175000000, 200000000
-   ];
-   // console.log(dataIntermediate);
-
-   // votes.sort(function(x, y){ return x.value < y.value;});
-   // console.log(votes);
+   // cria uma chave com valor 0 para cargos que não tiveram segundo turno
    votes.forEach(function(cargo){
       if(cargo.values[1] == null){
          cargo.values.push({"key": "2","value":0});
       }
    });
 
+   // formata os dados para facilitar a geração das barras empilhadas
    layers = votes.map(function(d){
-         return {x:d.key, "1":d.values[0].value, "2":d.values[1].value}
+         return {cargo:d.key, "1":d.values[0].value, "2":d.values[1].value}
    });
 
-   layers.sort(function(d,g){return (d[1]+d[2]) < (g[1] + g[2]);});
+   // ordena de forma decrescente os items
+   layers.sort(function(d,g){return (d[1]+d[2]) < (g[1] + g[2])? 1 : -1;});
 
+   // gera o layout das barras empilhadas
    var dataStackLayout = d3.stack().keys([colors[0].turn, colors[1].turn])
       .offset(d3.stackOffsetDiverging)
       (layers);
 
-   x.domain(layers.map(function(d) { return d.x; }));
+   // definição dos eixos X e Y
 
-   y.domain([d3.min(dataStackLayout, stackMin), 225000000]);
+   x.domain(layers.map(function(d) { return d.cargo; }));
+   y.domain([0, 220000000]);
 
    var xAxis = d3.axisBottom()
      .scale(x);
 
    var yAxis = d3.axisLeft()
       .scale(y)
-      .tickValues(tickValues);
+      .tickValues(tickValues)
+      .tickFormat(d3.format("~s"));
 
-   // yAxis.tickValues(10, 20, 30);
-
-   // x.domain(votes.map(function(d) { return d.key; }));
-   // y.domain([d3.min(dataStackLayout, stackMin), d3.max(dataStackLayout, stackMax)])
-   //    .rangeRound([height - margin.bottom, margin.top]);
-
-   // add the Y gridlines
+   // adiciona os grids ao gráfico
    chart.append("g")
       .attr("class", "grid")
-      .call(make_y_gridlines()
+      .call(makeGrid()
           .tickSize(-width)
           .tickFormat("")
-      )
+      );
+
+   // adiciona os eixos X e Y ao gráfico
 
    chart.append("g")
        .attr("transform", "translate(0," + (height+0.5) + ")")
@@ -92,85 +99,73 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
          .selectAll(".tick text")
          .call(wrap, x.bandwidth()/x.padding());
 
-   chart.append("g")
-      .call(yAxis
-         .tickFormat(d3.format("~s"))
-   );
+   chart.append("g").call(yAxis);
 
+   // adiciona as barras empilhadas ao gráfico
    chart.append("g")
       .selectAll("g")
       .data(dataStackLayout)
       .enter().append("g")
-         .attr("fill", function(d) { return d.key == 1 ? "#1b9e77" : "#d95f02"; })
+         .attr("fill", function(d) { return colors[d.key-1].color;})
       .selectAll(".stack-bar")
       .data(function(d){ return d;})
       .enter().append("rect")
       .attr("class", "stack-bar")
-      .attr("x", function(d) { return x(d.data.x);})
+      .attr("x", function(d) { return x(d.data.cargo);})
       .attr("y", function(d) { return y(d[1]);})
       .attr("height", function(d) { return (y(d[0]) - y(d[1]));})
       .attr("width", x.bandwidth())
       .on("mouseover", mouseover)
       .on("mouseout", mouseout);
 
-      // chart.selectAll(".bar")
-      //    .data(layers)
-      //    .enter().append("rect")
-      //    .attr("class", "bar")
-      //    .attr("x", function(d) { return x(d.x)})
-      //    .attr("y", function(d) { return y(d[2]); })
-      //    .attr("height", function(d) { return (y(d[1]) - y(d[2])); })
-      //    .attr("width", x.bandwidth());
-         // .on("mouseover", mouseover)
-         // .on("mouseout", mouseout);
-
-   // gridlines in y axis function
-   function make_y_gridlines() {
-       return d3.axisLeft(y).tickValues(tickValues);
-   }
-
+   // adiciona a label com valor total no topo das barras
    chart.selectAll(".labelTotal")
       .data(layers)
       .enter().append("text")
       .attr("class", "labelTotal label")
-      .attr('x', function(d) {return x(d.x) + x.bandwidth()/2;})
+      .attr('x', function(d) {return x(d.cargo) + x.bandwidth()/2;})
       .attr('y', function(d) {return y(d[1]+d[2]) - 5;})
       .text(function(d) {return f((d[1]+d[2])/1000000) + "M";})
 
+   // adiciona as labels laterais com valores das barras do primeiro turno
    chart.selectAll(".label1st")
       .data(layers.filter(function(d){ return d[2] != 0;}))
       .enter().append("text")
       .attr("class", "label label1st")
       .attr("transform", function(d){
-         return "rotate(90," + (x(d.x) + x.bandwidth() + 5) + "," + y(d[1]/2) + ")";
+         return "rotate(90," + (x(d.cargo) + x.bandwidth() + 5) + "," + y(d[1]/2) + ")";
       })
       .style("text-anchor", "middle")
-      .attr('x', function(d) {return x(d.x) + x.bandwidth();})
+      .attr('x', function(d) {return x(d.cargo) + x.bandwidth();})
       .attr('y', function(d) {return y(d[1]/2);})
       .text(function(d) {return f(d[1]/1000000) + "M";})
 
+   // adiciona as labels laterais com valores das barras do segundo turno
    chart.selectAll(".label2nd")
       .data(layers.filter(function(d){ return d[2] != 0;}))
       .enter().append("text")
       .attr("class", "label label2nd")
       .attr("transform", function(d){
-         return "rotate(90," + (x(d.x) + x.bandwidth() + 5) + "," + y(d[2]/2 + d[1]) + ")";
+         return "rotate(90," + (x(d.cargo) + x.bandwidth() + 5) + "," + y(d[2]/2 + d[1]) + ")";
       })
       .style("text-anchor", "middle")
-      .attr('x', function(d) {return x(d.x) + x.bandwidth();})
+      .attr('x', function(d) {return x(d.cargo) + x.bandwidth();})
       .attr('y', function(d) {return y(d[2]/2 + d[1]);})
       .text(function(d) {return f(d[2]/1000000) + "M";})
 
+   // adiciona os comportamentos "mouseover" e "mouseout" para os ticks do eixo X
    chart.selectAll("g .xAxis").selectAll(".tick")
       .on("mouseover", mouseover)
       .on("mouseout", mouseout);
 
+   // adiciona label para explicar o eixo X
    chart.append("text")
       .attr("transform", "translate(" + (width/2) + " ," + (height + 65) + ")")
       .attr("class", "axis-label")
       .style("text-anchor", "middle")
       .text("Cargo");
 
+   // adiciona label para explicar o eixo Y
    chart.append("text")
       .attr("transform", "rotate(-90)")
       .attr("class", "axis-label")
@@ -180,12 +175,12 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
       .style("text-anchor", "middle")
       .text("Votos");
 
+   // define um SVG para as legendas
    var legend = d3.select(".chart")
       .append("svg")
       .attr("class", "legend");
 
-   // var legend = d3.select(".legend");
-
+   // define a adiciona os quadrados da legenda
    legend.selectAll("rect")
    .data(colors)
    .enter().append("rect")
@@ -194,54 +189,23 @@ d3.csv("data/eleicoes_2014.csv").then(function(data){
    .attr("y", margin.top - 10)
    .attr("x", function(d, i){ return width/2 + margin.left/2 + 100*i + 20;})
    .style("fill", function(d,i){ return colors[i].color;})
-   //
-    legend.selectAll("text")
+
+   // define e adiciona os textos da legenda
+   legend.selectAll("text")
    .data(colors)
    .enter().append("text")
    .attr("y", margin.top)
    .attr("x", function(d, i){ return width/2 + margin.left/2 + 100*i + 34;})
    .text(function(d, i){ return colors[i].turn + "º Turno"});
-
-   // chart.select("body").select(".chart-tooltip")
-   //    .append("div")
-   //    .attr("class", "chart-tooltip")
-   //    .style("display", "none");
-   //    .attr('x', function(d) {return x(d.key) + x.bandwidth()/2;})
-   //    .attr('y', function(d) {return y(d.value) - 5;})
-   //    .text(function(d) {return f(d.value/1000000) + "M";});
-
-   // console.log(g.select("path"));
-
-   // g.selectAll("path")
-   // .data(states.features)
-   // .style("fill", function(d, i){
-   //    return colors.find(x => x.party === mostVoted[i].party).color;
-   // })
-   // .style('fill-opacity', '0.7')
-   // .on("mouseover", mouseover)
-   // .on("mousemove", function(d, i){
-   //    div
-   //    .html(d.properties.nome + '</br>Votos: ' + mostVoted[i].votes)
-   //    .style("left", (d3.event.pageX) + "px")
-   //    .style("top", (d3.event.pageY) + "px");
-   // })
-   // .on("mouseout", mouseout);
 });
 
-var div = d3.select("#chart-col").append("div")
-.attr("class", "chart-tooltip")
-.style("display", "none");
-
-function stackMin(serie) {
-  return d3.min(serie, function(d) { return d[0]; });
+// gera o grid do gráfico
+function makeGrid() {
+    return d3.axisLeft(y).tickValues(gridTickValues);
 }
 
-function stackMax(serie) {
-  return d3.max(serie, function(d) { return d[1]; });
-}
-
+// altera o valor das labels para o número completo
 function mouseover(d,i) {
-
    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
       .text((layers[i][1]+layers[i][2]).toLocaleString('pt-br'));
 
@@ -250,16 +214,10 @@ function mouseover(d,i) {
 
    d3.selectAll(".label2nd").filter(function(g, j){ return i === j;})
       .text(layers[i][2].toLocaleString('pt-br'));
-
-   // d3.select(".chart-tooltip")
-   //    .style("display", "inline")
-   //    .html(d.key + '</br>Votos: ' + d.value.toLocaleString('pt-br'))
-   //    .style("left", x(d.key) + "px")
-   //    .style("top", y(d.value) + "px");
 }
 
+// altera o valor das labels para o número resumido
 function mouseout(d, i) {
-
    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
       .text(f((layers[i][1]+layers[i][2])/1000000) + "M");
 
@@ -270,36 +228,7 @@ function mouseout(d, i) {
       .text(f(layers[i][2]/1000000) + "M");
 }
 
-// function mouseoverXAxis(d,i) {
-//
-//    // var bar = d3.selectAll(".stack-bar");
-//
-//    d3.selectAll(".labelTotal").filter(function(d, j){ return i === j;})
-//       .text((layers[i][1]+layers[i][2]).toLocaleString('pt-br'));
-//
-//    d3.selectAll(".label1st").filter(function(d, j){ return i === j;})
-//       .text(layers[i][1].toLocaleString('pt-br'));
-//
-//    d3.selectAll(".label2nd").filter(function(d, j){ return i === j;})
-//       .text(layers[i][2].toLocaleString('pt-br'));
-// }
-//
-// function mouseoutXAxis(d,i) {
-//
-//    d3.selectAll(".labelTotal").filter(function(g, j){ return i === j;})
-//       .text(f((layers[i][1]+layers[i][2])/1000000) + "M");
-//
-//    d3.selectAll(".label1st").filter(function(g, j){ return i === j;})
-//       .text(f(layers[i][1]/1000000) + "M");
-//
-//    d3.selectAll(".label2nd").filter(function(g, j){ return i === j;})
-//       .text(f(layers[i][2]/1000000) + "M");
-//
-//    d3.select(".chart-tooltip")
-//       .transition().duration(200)
-//       .style("opacity", 0);
-// }
-
+// função auxiliar para quebra de linha dos itens do eixo X
 function wrap(text, width) {
   text.each(function() {
     var text = d3.select(this),
@@ -307,7 +236,7 @@ function wrap(text, width) {
         word,
         line = [],
         lineNumber = 0,
-        lineHeight = 1.1, // ems
+        lineHeight = 1.1,
         y = text.attr("y"),
         dy = parseFloat(text.attr("dy")),
         tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
