@@ -217,7 +217,6 @@ d3.csv("data/presidente.csv").then(function(data){
 
    // adiciona título do grafo auxiliar
    auxChart.append("text")
-      // .attr("transform", "rotate(-90)")
       .attr("class", "aux-title")
       .attr("y", 0)
       .attr("x", 270)
@@ -234,7 +233,6 @@ d3.csv("data/presidente.csv").then(function(data){
 
    // adiciona label para explicar o eixo Y do grafo auxiliar
    auxChart.append("text")
-      // .attr("transform", "rotate(-90)")
       .attr("class", "aux-axis-label")
       .attr("y", 0)
       .attr("x", -25)

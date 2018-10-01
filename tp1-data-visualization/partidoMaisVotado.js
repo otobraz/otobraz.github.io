@@ -79,8 +79,6 @@ function generateMap(data) {
       })
    });
 
-   console.log(mostVotedByTurn);
-
    // Extrai os polígonos dos estados
    var states = topojson.feature(data[0], data[0].objects.estados);
 
