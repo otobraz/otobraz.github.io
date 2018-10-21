@@ -1,0 +1,135 @@
+country,allies,id
+Kingdom of the Netherlands,1,NLD
+Eritrea,1,ERI
+Nepal,1,NPL
+Mauritania,1,MRT
+Sierra Leone,1,SLE
+Guinea-Bissau,1,GNB
+Israel,3,ISR
+Chile,3,CHL
+Rwanda,4,RWA
+Comoros,4,160
+Tanzania,4,TZA
+Antigua and Barbuda,5,197
+Barbados,5,180
+Jamaica,5,JAM
+Saint Lucia,5,187
+Yemen,5,YEM
+Burkina Faso,5,BFA
+Angola,5,AGO
+Senegal,5,SEN
+North Korea,7,PRK
+Burundi,8,BDI
+Cameroon,9,CMR
+Kuwait,9,KWT
+Libya,9,LBY
+Benin,10,BEN
+Vietnam,10,VNM
+Qatar,14,QAT
+Chad,14,TCD
+Algeria,14,DZA
+Niger,15,NER
+Republic of the Congo,16,COG
+Ghana,16,GHA
+Tunisia,16,TUN
+Republic of Ireland,16,IRL
+Guinea,16,GIN
+Democratic Republic of the Congo,19,COD
+Mali,21,MLI
+Morocco,27,MAR
+Serbia,33,SRB
+Djibouti,36,DJI
+Seychelles,36,196
+Kazakhstan,36,KAZ
+Kyrgyzstan,36,KGZ
+Pakistan,36,PAK
+Turkmenistan,36,TKM
+Tajikistan,37,TJK
+Kenya,42,KEN
+Somalia,45,SOM
+Uganda,46,UGA
+Panama,48,PAN
+Bolivia,48,BOL
+Lebanon,48,LBN
+Haiti,49,HTI
+Uruguay,49,URY
+Venezuela,49,VEN
+Ecuador,50,ECU
+Guatemala,51,GTM
+Mexico,51,MEX
+Argentina,51,ARG
+Nicaragua,52,NIC
+Paraguay,52,PRY
+Dominica,53,DOM
+Peru,53,PER
+Costa Rica,55,CRI
+Honduras,55,HND
+Indonesia,57,IDN
+Thailand,59,THA
+Sudan,60,SDN
+Iraq,62,IRQ
+Cuba,62,CUB
+Liberia,66,LBR
+San Marino,66,211
+Syria,66,SYR
+Saudi Arabia,68,SAU
+Colombia,69,COL
+Iran,69,IRN
+Brazil,70,BRA
+Japan,71,JPN
+Philippines,73,PHL
+Egypt,73,EGY
+Bahrain,99,163
+Bosnia and Herzegovina,99,BIH
+Czech Republic,99,CZE
+Iceland,99,ISL
+Slovakia,99,SVK
+Slovenia,99,SVN
+Switzerland,99,CHE
+Tonga,99,188
+United Arab Emirates,99,ARE
+Macedonia,100,MKD
+Lithuania,104,LTU
+Croatia,104,HRV
+Mongolia,104,MNG
+Afghanistan,104,AFG
+Finland,105,FIN
+China,105,CHN
+Georgia,107,GEO
+Estonia,108,EST
+Latvia,108,LVA
+Austria,110,AUT
+Hungary,111,HUN
+Jordan,120,JOR
+Sweden,122,SWE
+Armenia,122,ARM
+Montenegro,123,MNE
+Ethiopia,127,ETH
+Azerbaijan,135,AZE
+Singapore,135,SGP
+Portugal,136,PRT
+Malaysia,142,MYS
+Ukraine,143,UKR
+Germany,143,DEU
+El Salvador,150,SLV
+Russia,165,RUS
+Luxembourg,165,LUX
+South Korea,165,KOR
+Poland,170,POL
+Spain,170,ESP
+Albania,171,ALB
+Bulgaria,171,BGR
+Norway,179,NOR
+Romania,182,ROU
+India,194,IND
+Denmark,217,DNK
+New Zealand,221,NZL
+Turkey,225,TUR
+Greece,238,GRC
+Belgium,240,BEL
+Australia,264,AUS
+Italy,270,ITA
+Canada,287,CAN
+France,290,FRA
+United Kingdom,306,GBR
+United States,327,USA

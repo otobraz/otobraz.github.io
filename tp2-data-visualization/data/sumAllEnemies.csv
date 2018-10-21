@@ -1,0 +1,147 @@
+country,enemies,id
+Lithuania,44,LTU
+Sweden,55,SWE
+Russia,201,RUS
+Turkey,178,TUR
+Denmark,57,DNK
+Serbia,29,SRB
+China,159,CHN
+France,212,FRA
+Greece,43,GRC
+Italy,114,ITA
+Japan,80,JPN
+Poland,53,POL
+Romania,93,ROU
+United Kingdom,117,GBR
+Australia,48,AUS
+Canada,45,CAN
+United States,112,USA
+Ukraine,13,UKR
+Georgia,18,GEO
+Armenia,42,ARM
+Pakistan,72,PAK
+Iran,79,IRN
+Austria,41,AUT
+Hungary,84,HUN
+Spain,91,ESP
+Algeria,8,DZA
+Portugal,34,PRT
+Germany,65,DEU
+Bulgaria,120,BGR
+Croatia,60,HRV
+Slovakia,52,SVK
+Finland,72,FIN
+Iraq,121,IRQ
+Thailand,68,THA
+North Korea,33,PRK
+Somalia,47,SOM
+Yemen,50,YEM
+Libya,25,LBY
+Norway,28,NOR
+Egypt,43,EGY
+Malaysia,13,MYS
+Belgium,48,BEL
+Cuba,47,CUB
+Brazil,23,BRA
+Mexico,19,MEX
+India,61,IND
+Nepal,9,NPL
+Indonesia,25,IDN
+Ethiopia,46,ETH
+Malta,4,173
+Albania,31,ALB
+Kingdom of the Netherlands,1,NLD
+Montenegro,12,MNE
+Macedonia,6,MKD
+New Zealand,30,NZL
+San Marino,15,211
+Mongolia,20,MNG
+Estonia,24,EST
+Latvia,25,LVA
+Haiti,18,HTI
+Bolivia,21,BOL
+Argentina,19,ARG
+Chile,20,CHL
+Venezuela,16,VEN
+Colombia,25,COL
+Peru,24,PER
+Morocco,17,MAR
+Dominica,25,DOM
+Ecuador,19,ECU
+Vietnam,33,VNM
+Tunisia,7,TUN
+Syria,32,SYR
+Luxembourg,22,LUX
+Panama,14,PAN
+Costa Rica,15,CRI
+El Salvador,18,SLV
+Honduras,17,HND
+Nicaragua,21,NIC
+Guatemala,15,GTM
+Philippines,29,PHL
+Liberia,23,LBR
+Paraguay,19,PRY
+Uruguay,15,URY
+Lebanon,16,LBN
+Saudi Arabia,23,SAU
+Cameroon,2,CMR
+Republic of the Congo,6,COG
+Ghana,5,GHA
+Republic of Ireland,5,IRL
+Guinea,5,GIN
+Mali,7,MLI
+Sudan,19,SDN
+Democratic Republic of the Congo,6,COD
+Belarus,1,BLR
+Cambodia,4,KHM
+Afghanistan,21,AFG
+South Korea,16,KOR
+Slovenia,2,SVN
+Bosnia and Herzegovina,4,BIH
+Eritrea,8,ERI
+Kenya,4,KEN
+Uganda,12,UGA
+Burundi,5,BDI
+Fiji,2,FJI
+Laos,9,LAO
+Grenada,7,190
+Uzbekistan,6,UZB
+Moldova,1,MDA
+Azerbaijan,13,AZE
+Chad,4,TCD
+Qatar,5,QAT
+Israel,31,ISR
+Jordan,9,JOR
+Bhutan,1,BTN
+Jamaica,3,JAM
+Benin,2,BEN
+Burkina Faso,1,BFA
+Niger,3,NER
+Mauritania,2,MRT
+Tajikistan,4,TJK
+Antigua and Barbuda,2,197
+Barbados,2,180
+Saint Lucia,2,187
+Saint Vincent and the Grenadines,2,193
+Rwanda,8,RWA
+Angola,6,AGO
+Djibouti,3,DJI
+East Timor,1,TLS
+Kuwait,2,KWT
+Mozambique,3,MOZ
+Czech Republic,2,CZE
+Bahrain,2,163
+Iceland,2,ISL
+Singapore,4,SGP
+Switzerland,2,CHE
+Tonga,2,188
+United Arab Emirates,2,ARE
+Cyprus,1,CYP
+Seychelles,2,196
+Kazakhstan,2,KAZ
+Kyrgyzstan,2,KGZ
+Turkmenistan,2,TKM
+Sierra Leone,1,SLE
+Bangladesh,1,BGD
+Tanzania,2,TZA
+Senegal,1,SEN
