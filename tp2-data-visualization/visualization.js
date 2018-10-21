@@ -135,7 +135,7 @@ function toEnemies(){
       })
 
    d3.select(".title h1")
-      .html("Enemies")
+      .html("Number of conflicts faced by each country since 1501")
 
    d3.select(".btn-enemies").classed("focus", true);
    d3.select(".btn-allies").classed("focus", false);
@@ -153,7 +153,7 @@ function toAllies(){
       })
 
    d3.select(".title h1")
-      .html("Allies")
+      .html("Number of alliances formed by each country since 1501")
 
    d3.select(".btn-enemies").classed("focus", false);
    d3.select(".btn-allies").classed("focus", true);
