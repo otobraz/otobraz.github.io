@@ -67,7 +67,7 @@ function ready(data) {
          }
          return "#ffffff";
       })
-      .style("opacity",0.8)
+      .style("opacity",1)
       .style("stroke","black")
       .style("stroke-width", 0.3)
       .on("mouseover", mouseOver)
