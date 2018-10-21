@@ -88,20 +88,27 @@ function ready(data) {
 
 // shows tooltip
 function mouseOver(d) {
-
-   var nConflicts = 0;
-   if(enemiesCount[d.id]){
-      nConflicts = enemiesCount[d.id];
-   }
+   var n = 0;
    var tWidth = Math.max(getTextWidth(d.properties.name, "bold 12pt BlinkMacSystemFont"), 100);
-   tooltip
-      .style("display", "inline")
-      .html(d.properties.name + '</br>Conflicts: ' + nConflicts)
-      .style("width", tWidth + "px");
-
    d3.select(this)
       .style("opacity", 0.5)
       .style("stroke-width",1.5);
+   tooltip
+      .style("display", "inline")
+      .style("width", tWidth + "px");
+   if(d3.select(".btn-enemies").classed("active")){
+      if(enemiesCount[d.id]){
+         n = enemiesCount[d.id];
+      }
+      tooltip.html(d.properties.name + '</br>Conflicts: ' + n)
+   }else{
+      if(alliesCount[d.id]){
+         n = alliesCount[d.id];
+      }
+      tooltip.html(d.properties.name + '</br>Alliances: ' + n)
+   }
+
+
 }
 
 // hide tooltip
