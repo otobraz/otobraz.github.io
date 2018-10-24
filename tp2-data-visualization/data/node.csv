@@ -1,0 +1,173 @@
+id,country,timeset,continent
+AFG,Afghanistan,,Asia
+ALB,Albania,,Europe
+DZA,Algeria,,Africa
+AGO,Angola,,Africa
+197,Antigua and Barbuda,,North America
+ARG,Argentina,,South America
+ARM,Armenia,,Asia
+AUS,Australia,,Oceania
+AUT,Austria,,Europe
+AZE,Azerbaijan,,Asia
+163,Bahrain,,Asia
+BGD,Bangladesh,,Asia
+180,Barbados,,North America
+BLR,Belarus,,Europe
+BEL,Belgium,,Europe
+BEN,Benin,,Africa
+BTN,Bhutan,,Asia
+BOL,Bolivia,,South America
+BIH,Bosnia and Herzegovina,,Europe
+BRA,Brazil,,South America
+GBR,British Empire,,Europe
+BGR,Bulgaria,,Europe
+BFA,Burkina Faso,,Africa
+BDI,Burundi,,Africa
+KHM,Cambodia,,Asia
+CMR,Cameroon,,Africa
+CAN,Canada,,North America
+CAF,Central African Republic,,Africa
+TCD,Chad,,Africa
+CHL,Chile,,South America
+CHN,China,,Asia
+COL,Colombia,,South America
+160,Comoros,,Africa
+CRI,Costa Rica,,North America
+HRV,Croatia,,Europe
+CUB,Cuba,,North America
+CYP,Cyprus,,Asia
+CZE,Czech Republic,,Europe
+COD,Democratic Republic of the Congo,,Africa
+DNK,Denmark,,Europe
+DJI,Djibouti,,Africa
+DOM,Dominica,,North America
+DOM,Dominican Republic,,North America
+TLS,East Timor,,Asia
+ECU,Ecuador,,South America
+EGY,Egypt,,Africa
+SLV,El Salvador,,North America
+JPN,Empire of Japan,,Asia
+ERI,Eritrea,,Africa
+EST,Estonia,,Europe
+ETH,Ethiopia,,Africa
+FJI,Fiji,,Oceania
+FIN,Finland,,Europe
+FRA,France,,Europe
+FRA,French Empire,,Europe
+GEO,Georgia,,Asia
+DEU,Germany,,Europe
+GHA,Ghana,,Africa
+GRC,Greece,,Europe
+190,Grenada,,North America
+GTM,Guatemala,,North America
+GIN,Guinea,,Africa
+GNB,Guinea-Bissau,,Africa
+HTI,Haiti,,North America
+HND,Honduras,,North America
+HUN,Hungary,,Europe
+ISL,Iceland,,Europe
+IND,India,,Asia
+IDN,Indonesia,,Asia
+IRN,Iran,,Asia
+IRQ,Iraq,,Asia
+ISR,Israel,,Asia
+ITA,Italy,,Europe
+JAM,Jamaica,,North America
+JPN,Japan,,Asia
+JOR,Jordan,,Asia
+KAZ,Kazakhstan,,Asia
+KEN,Kenya,,Africa
+ITA,Kingdom of Italy,,Europe
+NLD,Kingdom of the Netherlands,,Europe
+KWT,Kuwait,,Asia
+KGZ,Kyrgyzstan,,Asia
+LAO,Laos,,Asia
+LVA,Latvia,,Europe
+LBN,Lebanon,,Asia
+LBR,Liberia,,Africa
+LBY,Libya,,Africa
+LTU,Lithuania,,Europe
+LUX,Luxembourg,,Europe
+MKD,Macedonia,,Europe
+MWI,Malawi,,Africa
+MYS,Malaysia,,Asia
+MLI,Mali,,Africa
+173,Malta,,Europe
+MRT,Mauritania,,Africa
+MEX,Mexico,,North America
+MDA,Moldova,,Europe
+MNG,Mongolia,,Asia
+MNE,Montenegro,,Europe
+MAR,Morocco,,Africa
+MOZ,Mozambique,,Africa
+MMR,Myanmar,,Asia
+NAM,Namibia,,Africa
+DEU,Nazi Germany,,Europe
+NPL,Nepal,,Asia
+NZL,New Zealand,,Oceania
+NIC,Nicaragua,,North America
+NER,Niger,,Africa
+PRK,North Korea,,Asia
+VNM,North Vietnam,,Europe
+NOR,Norway,,Europe
+OMN,Oman,,Asia
+TUR,Ottoman Empire,,Europe
+PAK,Pakistan,,Asia
+PAN,Panama,,North America
+PNG,Papua New Guinea,,Oceania
+PRY,Paraguay,,South America
+CHN,People's Republic of China,,Asia
+PER,Peru,,South America
+PHL,Philippines,,Asia
+POL,Poland,,Europe
+PRT,Portugal,,Europe
+QAT,Qatar,,Asia
+IRL,Republic of Ireland,,Europe
+COG,Republic of the Congo,,Africa
+ROU,Romania,,Europe
+RUS,Russia,,Europe
+RUS,Russian Empire,,Europe
+RWA,Rwanda,,Africa
+187,Saint Lucia,,North America
+193,Saint Vincent and the Grenadines,,North America
+185,Samoa,,Oceania
+211,San Marino,,Europe
+SAU,Saudi Arabia,,Asia
+SEN,Senegal,,Africa
+SRB,Serbia,,Europe
+196,Seychelles,,Africa
+SLE,Sierra Leone,,Africa
+SGP,Singapore,,Asia
+SVK,Slovakia,,Europe
+SVN,Slovenia,,Europe
+SOM,Somalia,,Africa
+KOR,South Korea,,Asia
+VNM,South Vietnam,,Europe
+RUS,Soviet Union,,Europe
+ESP,Spain,,Europe
+LKA,Sri Lanka,,Asia
+SDN,Sudan,,Africa
+SUR,Suriname,,South America
+SWE,Sweden,,Europe
+CHE,Switzerland,,Europe
+SYR,Syria,,Asia
+TJK,Tajikistan,,Asia
+TZA,Tanzania,,Africa
+THA,Thailand,,Asia
+188,Tonga,,Oceania
+TUN,Tunisia,,Africa
+TUR,Turkey,,Asia
+TKM,Turkmenistan,,Asia
+UGA,Uganda,,Africa
+UKR,Ukraine,,Europe
+ARE,United Arab Emirates,,Asia
+GBR,United Kingdom,,Europe
+USA,United States,,North America
+URY,Uruguay,,South America
+UZB,Uzbekistan,,Asia
+VUT,Vanuatu,,Oceania
+VEN,Venezuela,,South America
+VNM,Vietnam,,Asia
+YEM,Yemen,,Asia
+ZMB,Zambia,,Africa
+ZWE,Zimbabwe,,Africa

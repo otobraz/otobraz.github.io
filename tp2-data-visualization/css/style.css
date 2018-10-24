@@ -1,12 +1,5 @@
-.state_contour {
-   fill: none;
-   stroke: black;
-   stroke-linejoin: round;
-}
-
-#teste {
-  position: absolute !important;
-  top: 300px !important;
+svg{
+   background: #c5e0f5;
 }
 
 .map-tooltip {
@@ -51,6 +44,7 @@ header {
 
 .title{
    padding-top: 10px;
+   padding-bottom: 5px;
    text-align: center;
 }
 
