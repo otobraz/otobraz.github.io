@@ -97,3 +97,23 @@ g{
    font-size: 1vw;
    font-weight: bold;
 }
+
+.btn-enemies{
+   background-color: #dc3545;
+   border-color: #dc3545;
+   color: white;
+}
+
+.btn-enemies:focus{
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.5);
+}
+
+.btn-allies{
+   background-color: #28a745;
+   border-color: #28a745;
+   color: white;
+}
+
+.btn-allies:focus {
+    box-shadow: 0 0 0 .2rem rgba(40,167,69,.5);
+}

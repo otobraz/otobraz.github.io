@@ -40,7 +40,7 @@ var promises = [];
 promises.push(d3.json('data/world_countries.json'));
 promises.push(d3.csv('data/sumAllEnemies.csv'));
 promises.push(d3.csv('data/sumAllAllies.csv'));
-promises.push(d3.csv('data/NovoEdges.csv'));
+promises.push(d3.csv('data/EdgesNoSelf.csv'));
 promises.push(d3.csv('data/node.csv'));
 
 Promise.all(promises)
@@ -131,14 +131,20 @@ function mouseOver(d) {
          if(selectedCountry == d.id){
             tooltip.html('Selected:</br>' + d.properties.name);
          }else{
-            tooltip.html(d.properties.name + '</br>Conflicts: ' + enemiesByCountry[selectedCountry][d.id]);
+            if((selectedCountry in enemiesByCountry) && (d.id in enemiesByCountry[selectedCountry])){
+               n = enemiesByCountry[selectedCountry][d.id];
+            }
+            tooltip.html(d.properties.name + '</br>Conflicts: ' + n);
          }
          break;
       case '3':
          if(selectedCountry == d.id){
             tooltip.html('Selected:</br>' + d.properties.name);
          }else{
-            tooltip.html(d.properties.name + '</br>Alliances: ' + alliesByCountry[selectedCountry][d.id]);
+            if((selectedCountry in alliesByCountry) && (d.id in alliesByCountry[selectedCountry])){
+               n = alliesByCountry[selectedCountry][d.id];
+            }
+            tooltip.html(d.properties.name + '</br>Alliances: ' + n);
          }
          break;
       default:
