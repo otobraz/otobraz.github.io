@@ -48,13 +48,12 @@
     <!-- Navigation -->
 
    <div class="title">
-      <h1>Number of conflicts faced by each country since 1501</h1>
-      <hr>
+      <h3>Number of conflicts faced by each country since 1501</h3>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label onClick="toEnemies();" class="btn active focus btn-enemies">
+        <label onClick="toEnemies();" class="btn btn-sm btn-enemies my-focus active">
           <input type="radio" name="options" id="option1" autocomplete="off" checked>Conflicts
         </label>
-        <label onClick="toAllies();" class="btn btn-allies">
+        <label onClick="toAllies();" class="btn btn-sm btn-allies">
           <input type="radio" name="options" id="option2" autocomplete="off">Alliances
         </label>
       </div>
@@ -65,7 +64,10 @@
          <div class="col">
          </div>
          <div class="col">
-            <svg></svg>
+               <svg class="map"></svg>
+               <div class="legend-container">
+                  <svg class="legend"></svg>
+               </div>
          </div>
          <div class="col">
          </div>
