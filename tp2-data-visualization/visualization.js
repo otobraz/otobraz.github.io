@@ -1,6 +1,6 @@
 // define margens e tamanho da tela
 var margin = {top: 50, right: 50, bottom: 50, left: 50},
-            width = window.innerWidth * 0.7,
+            width = 1000,
             height = 600 - margin.top - margin.bottom;
 
 // seleciona o SVG e define sua dimensão
@@ -22,7 +22,7 @@ var tooltip = d3.select("body")
 
 // define a projeção do mapa
 var projection = d3.geoEquirectangular()
-   .scale(150)
+   .scale(158.5)
    .translate([width / 2, 250])
 
 // define path para desenhar o mapa
@@ -104,11 +104,6 @@ function ready(data) {
          alliesByCountry[d.target_id][d.source_id]++;
       }
    });
-
-   // console.log(count);
-   // var color = d3.scaleLinear()
-   //    .domain([0, 1.0])
-   //    .range([d3.interpolateReds(0), "#FF0000"]);
 
    // desenha o mapa inicial (estado inicial = 0)
    g = svg.append("g")
@@ -382,6 +377,7 @@ function toAllies(){
    status = 1;    // altera estado para 1
 }
 
+// Restaura escala e posicionamento padrão da visualização
 function reset(){
    svg
       .transition()
@@ -435,7 +431,8 @@ function updateMap(d){
          status = 2;                                           // altera o estado para "2"
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
-         d3.select(".title h3").html("Alliances formed by " + selectedCountry.name + " since 1501");
+         d3.select(".title h3")  // atualiza título da visualização com o nome do país selecionado
+            .html("Alliances formed by " + selectedCountry.name + " since 1500");
       }
    }else{
       // se o país já estiver selecionado, retorna o estado da visualização para "1"
@@ -478,7 +475,8 @@ function updateMap(d){
          status = 3;                                           // altera o estado para "3"
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
-         d3.select(".title h3").html("Conflicts faced by " + selectedCountry.name + " since 1500");
+         d3.select(".title h3")     // atualiza título da visualização com o nome do país selecionado
+            .html("Conflicts faced by " + selectedCountry.name + " since 1500");
       }
    }
 }
