@@ -73,7 +73,6 @@ d3.csv("data/presidente.csv").then(function(data){
    auxCVotes.splice(0,3);
 
    // definição dos eixos X e Y do gráfico original
-
    x.domain(votes.map(function(d) { return candidateNames[d.key]; }));
    y.domain([0, 50000000]);
 
