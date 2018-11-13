@@ -432,7 +432,7 @@ function updateMap(d){
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
          d3.select(".title h3")  // atualiza título da visualização com o nome do país selecionado
-            .html("Alliances formed by " + selectedCountry.name + " since 1500");
+            .html("Conflicts faced by " + selectedCountry.name + " since 1500");
       }
    }else{
       // se o país já estiver selecionado, retorna o estado da visualização para "1"
@@ -476,7 +476,7 @@ function updateMap(d){
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
          d3.select(".title h3")     // atualiza título da visualização com o nome do país selecionado
-            .html("Conflicts faced by " + selectedCountry.name + " since 1500");
+            .html("Alliances formed by " + selectedCountry.name + " since 1500");
       }
    }
 }
