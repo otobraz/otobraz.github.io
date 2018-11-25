@@ -18,66 +18,48 @@
 
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-         <div class="title">
-            <a class="navbar-brand title" href="index.html">Number of conflicts faced by each country since 1500</a>
+      <div class="container-fluid">
+         <div class="col-3">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link btn-xs"
+                     href="#"
+                     id="navbarDropdownMenuLink"
+                     role="button"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="../index.html">Home Page</a>
+                     <a class="dropdown-item" href="visualization.html">Main Visualization</a>
+                     <a class="dropdown-item" href="../src/visualizacao2.html">Percentage of conflicts and alliances</a>
+                     <a class="dropdown-item" href="../src/visualizacao3.html">Longest Conflicts</a>
+                  </div>
+               </li>
+            </ul>
          </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="visualization.html">Visualização
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://github.com/otobraz">Oto Braz Assunção</a>
-            </li>
-          </ul>
-        </div>
+         <div class="col-6">
+            <div class="title">
+               <a class="navbar-brand title" href="index.html">Number of Conflicts Faced by Each Country Since 1500</a>
+            </div>
+         </div>
+         <div class="col-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="../src/index.html">Projeto Final - Visualização de Dados</a>
+                </li>
+              </ul>
+            </div>
+         </div>
       </div>
     </nav>
     <!-- Navigation -->
-
-   <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="col-4">
-
-        </div>
-        <div class="col-4">
-           <div class="title">
-              <h5>Number of conflicts faced by each country since 1500</h5>
-           </div>
-        </div>
-        <div class="col-4">
-        </div>
-      </div>
-   </div> -->
-
-   <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8">
-           <div class="context-btn-group">
-              <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label onClick="toEnemies();" class="btn btn-sm btn-enemies my-focus active">
-                  <input type="radio" name="options" id="option1" autocomplete="off" checked>Conflicts <i class="fas fa-thumbs-down"></i>
-                </label>
-                <label onClick="toAllies();" class="btn btn-sm btn-allies mr-sm-2">
-                  <input type="radio" name="options" id="option2" autocomplete="off">Alliances <i class="fas fa-thumbs-up"></i>
-                </label>
-              </div>
-              <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                 <label onClick="reset();" class="btn btn-reset btn-sm btn-dark">Reset <i class="fas fa-search-minus"></i></label>
-               </div>
-           </div>
-        </div>
-        <div class="col-md-4">
-        </div>
-      </div>
-   </div> -->
 
    <div class="container-fluid">
       <div class="row">
@@ -114,20 +96,16 @@
       </div>
         <div class="col-4">
            <div class="line-chart-title">
-              <h5>Number of Wars over the years</h5>
+              <h5>Number of Wars over the Years</h5>
            </div>
         </div>
-        <div class="col-4 centered-form">
-           <form action="" class="form-inline">
+        <div class="col-4">
+           <form action="" class="float-right form-inline centered-form">
                <div class="form-group">
                   <label class="sr-only" for="inlineFormInputName2">From</label>
-                  <input type="text" id="from" class="form-control form-control-sm mr-sm-2" placeholder="From">
-               </div>
-               <div class="form-group">
+                  <input type="text" id="from" class="form-control form-control-sm mr-sm-1" placeholder="From">
                   <label class="sr-only" for="inlineFormInputName2">To</label>
-                  <input type="text" id="to" class="form-control form-control-sm mr-sm-2" placeholder="To">
-               </div>
-               <div class="form-group">
+                  <input type="text" id="to" class="form-control form-control-sm mr-sm-1" placeholder="To">
                   <label onClick="filterTimePeriod();" class="btn btn-reset btn-sm btn-dark">Filter <i class="fas fa-filter"></i></label>
                </div>
             </form>
@@ -156,33 +134,43 @@
          <div class="modal-body">
 
             <h5>Map</h5>
-            Hello! The world map is the main component of our visualization. It's a heatmap that shows the amount of conflicts faced by a country or the amount of alliances each country has formed since 1500. The darker the colors bigger is the number they represent. You can also select a country to know who it has faced and cooperated with the most. Have I told you you can hover the countries to know more info!?
+            Hello! The world map is the main component of our visualization. It's a heatmap that shows the amount of conflicts faced by a country, or the amount of alliances each country has formed since 1500. As the colors get darker the number of conflicts and alliances get larger. You can also select a country to know who it has faced and allied with the most. Have I told you you can hover over the countries to know more info!?
 
             <hr>
 
-            <h5>Bar Chart</h5>
-            The bar chart shows you the ranking of the countries which had more conflicts and alliances depending on the context of the date you are visualizing. When a country is selected on the map, the chart will show the ranking of countries the selected country has faced or cooperated with the most.
+            <h5>Bar Graph</h5>
+            The bar graph ranks the countries based on how many conflicts and alliances they had. When a country is selected, it shows a ranking based on the amount of countries the selected country has faced or allied with.
 
             <hr>
 
             <h5>Time Series</h5>
-            Our time series, positioned at the bottom of the screen, lets you know how many wars happened each year over the last 500 years (518 to be precise)! By the way, when you select a country on the map, the amount of wars that country has participated in is also shown in the time series. Beaware of the legend! It will show you what country is currently selected.
+            The time series, positioned at the bottom of the screen, shows how many wars ocurred over the last 500 years (518 to be precise)! By the way, when you select a country on the map, the amount of wars that country has participated in is also shown in the time series. Be aware of the legend! It will show what country is currently selected.
 
             <hr>
 
             <h5>How does this visualization let me interact with it?</h5>
-               - Conflicts and Alliances buttons: you can alternate between the context of the data (Conflicts - Alliances).</br>
-               - You select a country you wanna se specific info about.</br>
-               - You can hover the elements (countries, bars, dots) to get more info.</br>
-               <h6 style="font-weight: bold;">Map:</h6>
+            <ul>
+               <li type="circle">
+                 Conflicts and Alliances buttons: it lets you alternate between
+                 the context of the data (Conflicts - Alliances).
+               </li>
+               <li type="circle">
+                 You can select a country you wanna see specific info about.
+               </li>
+               <li type="circle">
+                 You can hover over the elements (countries, bars, dots) to
+                 get more info.
+               </li>
+            </ul>
+               <h8 style="font-weight: bold;">Map:</h8>
                   <ul>
-                     <li>You can zoom in and out the map.</li>
+                     <li>You can zoom in and out of the map.</li>
                      <li>You can drag the map around.</li>
-                     <li>Reset button: you can reset the zoom and position of the map.</li>
+                     <li>Reset button: it lets you reset the zoom and the position to default.</li>
                   </ul>
-               <h6 style="font-weight: bold;">Time Series:</h6>
+               <h8 style="font-weight: bold;">Time Series:</h8>
                   <ul>
-                      <li>Filter button: you can choose a specific period of time the time series is representing.</li>
+                      <li>Filter button: it lets you choose a specific period of time represented by the time series.</li>
                   </ul>
          </div>
          <div class="modal-footer">

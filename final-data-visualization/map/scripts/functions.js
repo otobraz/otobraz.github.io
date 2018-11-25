@@ -45,7 +45,7 @@ function updateMap(d){
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
          d3.select(".title a")  // atualiza título da visualização com o nome do país selecionado
-            .text("Conflicts faced by " + selectedCountry.name + " since 1500");
+            .text("Conflicts Faced by " + selectedCountry.name + " Since 1500");
 
          updateBarChart(max, array);
          updateLineChart();
@@ -93,7 +93,7 @@ function updateMap(d){
          selectedCountry = {name:d.properties.name, id:d.id};  // armazena id do país selecionado
 
          d3.select(".title a")     // atualiza título da visualização com o nome do país selecionado
-            .text("Alliances formed by " + selectedCountry.name + " since 1500");
+            .text("Alliances Formed by " + selectedCountry.name + " Since 1500");
 
          updateBarChart(max, array);
          updateLineChart();
@@ -138,7 +138,7 @@ function toEnemies(){
    selectedCountry = {};   // reseta a seleção do país selecionado
 
    // altera título da visualização
-   d3.select(".title a").text("Number of conflicts faced by each country since 1500");
+   d3.select(".title a").text("Number of Conflicts Faced by Each Country Since 1500");
 
    // atualiza classe dos botões para realçar o botão selecionado
    d3.select(".btn-enemies").classed("my-focus", true);
@@ -213,7 +213,7 @@ function toAllies(){
    selectedCountry = {};   // reseta a seleção do país selecionado
 
    // altera título da visualização
-   d3.select(".title a").text("Number of alliances formed by each country since 1500");
+   d3.select(".title a").text("Number of Alliances Formed by Each Country Since 1500");
 
    // atualiza classe dos botões para realçar o botão selecionado
    d3.select(".btn-enemies").classed("my-focus", false);
@@ -422,17 +422,17 @@ function filterTimePeriod(){
       }
    }
    else if(parseInt(from) > parseInt(to)){
-      alert("Data inicial deve ser menor que data final");
+      alert("Start date should be earlier than the end date");
       document.getElementById("from").style.border = "2px solid red";
       document.getElementById("to").style.border = "2px solid red";
    }
    else if(from < 1500){
-      alert("Data inicial deve ser maior que 1500");
+      alert("Start date should be later than 1500");
       document.getElementById("from").style.border = "2px solid red";
       document.getElementById("to").style.border = "1px solid #ced4da ";
    }
    else if(to > 2018){
-      alert("Data final deve ser menor que 2018");
+      alert("End date should be earlier than 2018");
       document.getElementById("to").style.border = "2px solid red";
       document.getElementById("from").style.border = "1px solid #ced4da ";
    }
@@ -618,5 +618,5 @@ function lineChartMouseOut(d){
 }
 
 function showHelp(){
-   
+
 }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percentage of Conflicts and Alliances</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="c3/c3.min.js"></script>
+
+  <link href="c3/c3.css" rel="stylesheet">
+
+
+  <link rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+         crossorigin="anonymous">
+  <link href="css/geral.css" rel="stylesheet"></link>
+
+  <script type="text/javascript" src="data/sumAllAlies.js"></script>
+  <script type="text/javascript" src="data/sumAllEnemies.js"></script>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="col-md-1">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link btn-xs"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </a>
+            <div class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../index.html">
+                Home Page
+              </a>
+              <a class="dropdown-item" href="../map/visualization.html">
+                Main Visualization
+              </a>
+              <a class="dropdown-item" href="visualizacao2.html">
+                Percentage of Conflicts and Alliances
+              </a>
+              <a class="dropdown-item" href="visualizacao3.html">
+                Longest Conflicts
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-7"></div>
+    <div class="col-md-4">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="../src/index.html">Projeto Final - Visualização de Dados</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <h2 class="col-md-9">
+        <!-- Percentual de aliados e inimigos -->
+        <!-- Countries with more edges (involved in more conflicts) -->
+        Percentage of allies and enemies
+      </h2>
+    </div>
+    <div class="row">
+      <div id="visualizacao1" class="col-md-10"></div>
+      <div class="col-md-2 form-group">
+        <div>
+          <input class="form-check-input" type="checkbox" id="checkboxEmpilhado" checked>
+          <label class="form-check-label" for="checkboxEmpilhado">
+            Stacked bars
+          </label>
+        </div>
+        <div>
+          <input class="form-check-input" type="checkbox" id="checkboxNormaliza" checked>
+          <label class="form-check-label" for="checkboxNormaliza">
+            Percentage of allies and enemies
+          </label>
+        </div>
+        <br>
+        <div>
+          <input id="search-input"
+            class="form-control"
+            type="text"
+            placeholder="Type the name of the country"
+            aria-label="Search">
+        </div>
+        <br>
+        <div>
+          <label for="quantElementos">Number of countries</label>
+          <select class="form-control" id="quantElementos">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/visualizacao2.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+           crossorigin="anonymous"></script>
+</body>
+</html>

@@ -70,7 +70,7 @@ function ready(data) {
         conflicts.push({source:conflict.values[0].source_id , target:conflict.values[0].target_id, conflict:conflict.key, start:+conflict.values[0].start, end:+end});
      }
    });
-   
+
    conflicts.forEach(function(d) {
      if(d.end === "Ongoing"){
         duration.push({conflict:d.conflict, duration: currentYear - d.start});

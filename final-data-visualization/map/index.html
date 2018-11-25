@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Visualizando o Shape of War</title>
+
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+   <!-- Estilos para o Template -->
+   <link href="css/business-frontpage.css" rel="stylesheet">
+   <link type="text/css" rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+
+   <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand active" href="index.html">Projeto Final - Visualização de Dados</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="visualization.html">Visualização
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://github.com/otobraz">Oto Braz Assunção</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim Nav Bar -->
+
+    <header class="business-header">
+      <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-2">
+          </div>
+          <div class="col-md-8">
+            <h1 class="display-3 text-center mt-4">Shape of War</h1>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+     </div>
+    </header>
+
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-2">
+         </div>
+         <div class="col-md-8">
+         </div>
+         <div class="col-md-2">
+           <div class="credits">
+              <a href="https://www.freepik.com/free-vector/war-background-with-silhouettes-of-soldiers_2985753.htm">Designed by Freepik</a>
+           </div>
+           </div>
+      </div>
+   </div>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="mt-4">O Trabalho</h2>
+          <p>Este trabalho prático compreendeu o desenvolvimento parcial do projeto da disciplina Visualização de Dados. Foi desenvolvido um <i>heatmap</i> para apresentar dados de conflitos armados que ocorreram entre nações entre 1500 e 2018.
+          <p>Buscou-se responder as seguintes perguntas: <i>Quantas conflitos e alianças foram formadas por cada país entre os anos de 1500 e 2018?</i> e <i>Para cada país, com quem eles tiveram conflitos e alianças? E quantas vezes?</i></p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="mt-4">Oto Braz Assunção</h2>
+          <address>
+            <strong>Universidade Federal de Minas Gerais</strong>
+            <br>otobraz@ufmg.br
+            <br><a target="_blank" href="https://github.com/otobraz">GitHub</a>
+            <br>
+          </address>
+        </div>
+      </div>
+
+      <h2 class="mt-4">Visualizações Desenvolvidas</h2>
+      <div class="row">
+        <div class="col-sm-6 my-6">
+          <div class="card">
+            <img class="card-img-top" src="img/vis1.png" alt="Visualizacão 1">
+            <hr>
+            <div class="card-body">
+              <h4 class="card-title">Mapa</h4>
+              <p class="card-text">Esta visualização mostra através do mapa do Brasil, os partidos que receberam mais votos em cada estado. Foram gerados um mapa para o 1º turno e outro para o 2º turno.</p>
+            </div>
+            <div class="card-footer">
+              <a target="_blank" href="partidoMaisVotado.html" class="btn btn-primary">Abrir! <i class="fas fa-external-link-square-alt fa-sm"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 my-6">
+          <div class="card">
+            <img class="card-img-top" src="img/vis2.png" alt="Visualização 2">
+            <hr>
+            <div class="card-body">
+              <h4 class="card-title">Guerras</h4>
+              <p class="card-text">Foi mostrado a quantidade de votos que cada cargo político recebeu. Foram utilizadas barras empilhadas para permitir a visualização dos votos do 1º e 2º turno de forma separada.</p>
+            </div>
+            <div class="card-footer">
+              <a target="_blank" href="cargoMaisVotado.html" class="btn btn-primary">Abrir! <i class="fas fa-external-link-square-alt fa-sm"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+
+    <!-- Rodape -->
+    <footer class="py-3 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Oto Braz Assunção 2018</p>
+         </div>
+   </footer>
+  <!-- Fim Rodape -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

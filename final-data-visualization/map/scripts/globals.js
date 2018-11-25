@@ -98,7 +98,7 @@ var yAxis;
 /* ------- SÉRIE TEMPORAL  ------- */
 
 var lineChartWidth = d3.select(".line-chart-div").node().getBoundingClientRect().width - margin.left;
-var lineChartHeight = 210;
+var lineChartHeight = lineChartWidth / 7;
 
 var lineChartInnerWidth  = lineChartWidth - margin.left - margin.right;
 var lineChartInnerHeight = lineChartHeight - margin.top - margin.bottom;

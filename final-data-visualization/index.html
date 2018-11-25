@@ -4,116 +4,185 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Visualizando o Shape of War</title>
+   <title>Shape of War</title>
 
    <!-- Bootstrap -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+   <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
    <!-- Estilos para o Template -->
-   <link href="css/business-frontpage.css" rel="stylesheet">
-   <link type="text/css" rel="stylesheet" href="css/style.css" />
+   <link href="map/css/business-frontpage.css" rel="stylesheet">
+   <link type="text/css" rel="stylesheet" href="map/css/style.css" />
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
 
-   <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand active" href="index.html">Projeto Final - Visualização de Dados</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="visualization.html">Visualização
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://github.com/otobraz">Oto Braz Assunção</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Fim Nav Bar -->
-
-    <header class="business-header">
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
+         <div class="col-3">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link btn-xs"
+                     href="#"
+                     id="navbarDropdownMenuLink"
+                     role="button"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="../index.html">Início</a>
+                     <a class="dropdown-item" href="map/visualization.html">Main Visualization</a>
+                     <a class="dropdown-item" href="src/visualizacao2.html">Percentage of conflicts and alliances</a>
+                     <a class="dropdown-item" href="src/visualizacao3.html">Longest Conflicts</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-6">
+         </div>
+         <div class="col-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <h7>Projeto Final - Visualização de Dados</h7>
+                </li>
+              </ul>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!-- Navigation -->
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-12"><i>Shape of War</i></h1>
+      <p>
+        Ao longo dos anos, a humanidade passou por diversos episódios de
+        conflitos armados. Alguns conflitos foram mais marcantes que outros,
+        mas todos tiveram impactos em diferentes países e no mundo. Nesse
+        contexto, foram desenvolvidas visualizações que possibilitam a
+        exploração desses diferentes conflitos mundiais que ocorreram desde 1500.
+      </p>
+      <p>
+        Buscou-se responder as seguintes perguntas: <i>Qual o número de
+        inimizades/alianças formadas pelos países?</i>, <i>Quais as
+        inimizades/alianças dos países?</i>, <i>Quais foram os países
+        envolvidos em mais conflitos ao longo do tempo?</i>, <i>Como é a
+        distribuição dos conflitos do mundo ao longo dos anos?</i>, COMPLETAR.
+      </p>
+    </div>
+    <div class="espaco-branco"></div>
+    <div class="row">
+      <div class="col-md-5 pre-vis">
         <div class="row">
-           <div class="col-md-2">
-          </div>
-          <div class="col-md-8">
-            <h1 class="display-3 text-center mt-4">Shape of War</h1>
-          </div>
-          <div class="col-md-2">
-          </div>
+          <h6>
+            <a href="map/visualization.html">
+              <b>Visualização 1:</b>
+              <i>Number of Conflicts Faced by Each Country Since 1500</i>
+            </a>
+          </h6>
         </div>
-     </div>
-    </header>
-
-   <div class="container-fluid">
-      <div class="row">
-         <div class="col-md-2">
-         </div>
-         <div class="col-md-8">
-         </div>
-         <div class="col-md-2">
-           <div class="credits">
-              <a href="https://www.freepik.com/free-vector/war-background-with-silhouettes-of-soldiers_2985753.htm">Designed by Freepik</a>
-           </div>
-           </div>
-      </div>
-   </div>
-
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <h2 class="mt-4">O Trabalho</h2>
-          <p>Este trabalho prático compreendeu o desenvolvimento parcial do projeto da disciplina Visualização de Dados. Foi desenvolvido um <i>heatmap</i> para apresentar dados de conflitos armados que ocorreram entre nações entre 1500 e 2018.
-          <p>Buscou-se responder as seguintes perguntas: <i>Quantas conflitos e alianças foram formadas por cada país entre os anos de 1500 e 2018?</i> e <i>Para cada país, com quem eles tiveram conflitos e alianças? E quantas vezes?</i></p>
-        </div>
-        <div class="col-sm-4">
-          <h2 class="mt-4">Oto Braz Assunção</h2>
-          <address>
-            <strong>Universidade Federal de Minas Gerais</strong>
-            <br>otobraz@ufmg.br
-            <br><a target="_blank" href="https://github.com/otobraz">GitHub</a>
-            <br>
-          </address>
+        <div class="row">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer non elit quis quam vehicula semper id sit amet est.
+            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
+            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
+            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
+            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim
+            ex. Morbi viverra risus nisi, id fermentum felis porttitor in.
+            Donec sagittis sed lacus et congue. Duis eu porta ipsum, vel
+            laoreet ipsum. Etiam ultricies aliquet mauris, in suscipit nibh
+            dignissim eget. Morbi venenatis sed urna sit amet aliquam. Morbi
+            euismod elit quis magna auctor sodales. In ultrices nisl nisl,
+            quis facilisis enim luctus vel. Maecenas efficitur vitae diam
+            non lobortis. In consectetur vel arcu ut aliquet. Nam porta mi
+            eu tellus suscipit auctor. Proin aliquet semper dui, ut porttitor
+            eros tristique ut.
+          </p>
         </div>
       </div>
-
-      <div class="row">
-         <div class="col my-4">
-         </div>
-         <div class="col my-4">
-            <div class="card">
-               <img src="https://i.imgur.com/5XHFc8m.gif" alt="Exemplo da Visualização">
-               <div class="card-footer">
-                 <a target="_blank" href="visualization.html" class="btn btn-primary">Abrir! <i class="fas fa-external-link-square-alt fa-sm"></i></a>
-               </div>
-
-           </div>
-         </div>
-         <div class="col my-4">
-         </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <div class="row pre-vis">
+          <div class="row">
+            <h6>
+              <a href="src/visualizacao2.html">
+                <b>Visualização 2:</b>
+                <i>Percentage of allies and enemies</i>
+              </a>
+            </h6>
+          </div>
+          <div class="row">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer non elit quis quam vehicula semper id sit amet est.
+            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
+            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
+            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
+            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim ex.
+          </div>
+        </div>
+        <div class="row pre-vis">
+          <div class="row">
+            <h6>
+              <a href="src/visualizacao3.html">
+                <b>Visualização 3:</b>
+                <i>Ranking of the conflicts</i>
+              </a>
+            </h6>
+          </div>
+          <div class="row">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer non elit quis quam vehicula semper id sit amet est.
+            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
+            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
+            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
+            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim ex.
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 
-    <!-- Rodape -->
-    <footer class="py-3 bg-dark">
-         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Oto Braz Assunção 2018</p>
-         </div>
-   </footer>
+  <footer class="page-footer font-small">
+    <div class="text-center">
+      Desenvolvido por:
+      <a href="mailto:amandafp@ufmg.br">
+        Amanda Fernandes Pereira,
+      </a>
+      <a href="mailto:amanda.pereira@dcc.ufmg.br">
+        Fabrício Horácio Sales Pereira,
+      </a>
+      <a href="mailto:amanda.pereira@dcc.ufmg.br">
+        Lucas Saraiva,
+      </a>
+      <a href="mailto:otobraz@ufmg.br">
+        Oto Braz
+      </a>
+    </div>
+  </footer>
+
   <!-- Fim Rodape -->
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+           crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+           integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+           crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+           crossorigin="anonymous"></script>
 </body>
 </html>
