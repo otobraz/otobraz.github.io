@@ -7,11 +7,11 @@ let quant = document.querySelector('#quantElementos').value;
 document.querySelector('#quantElementos').addEventListener('change', function(e) {
   if (document.querySelector('#information-duration').value){
     document.querySelector('h2').innerText
-      = "Ranking of the longest conflicts";
+      = "Longest Wars";
     rankingDuracao(e.target.value);
   } else {
     document.querySelector('h2').innerText
-      = "Ranking of the conflicts with more countries involved";
+      = "Wars with most Participant Countries";
     rankingPaises(e.target.value);
   }
 }, false);
@@ -19,7 +19,7 @@ document.querySelector('#quantElementos').addEventListener('change', function(e)
 document.querySelector('#information-duration').addEventListener('change', function(e) {
   if (e.target.checked){
     document.querySelector('h2').innerText
-      = "Ranking of the longest conflicts";
+      = "Longest Wars";
     rankingDuracao(document.querySelector('#quantElementos').value);
   }
 }, false);
@@ -27,13 +27,13 @@ document.querySelector('#information-duration').addEventListener('change', funct
 document.querySelector('#information-country').addEventListener('change', function(e) {
   if (e.target.checked){
     document.querySelector('h2').innerText
-      = "Ranking of the conflicts with more countries involved";
+      = "Wars with most Participant Countries";
     rankingPaises(document.querySelector('#quantElementos').value);
   }
 }, false);
 
 window.onload = rankingDuracao(quant);
-document.querySelector('h2').innerText = "Ranking of the longest conflicts";
+document.querySelector('h2').innerText = "Longest Wars";
 
 function rankingDuracao(quantidade){
 
