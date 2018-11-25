@@ -38,7 +38,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                     <a class="dropdown-item" href="../index.html">Início</a>
+                     <a class="dropdown-item" href="../index.html">Home Page</a>
                      <a class="dropdown-item" href="map/visualization.html">Main Visualization</a>
                      <a class="dropdown-item" href="charts/visualizacao2.html">Percentage of conflicts and alliances</a>
                      <a class="dropdown-item" href="charts/visualizacao3.html">Longest Wars</a>
@@ -64,10 +64,25 @@
    </nav>
    <!-- Navigation -->
 
+   <header class="business-header">
+     <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-2">
+         </div>
+         <div class="col-md-8">
+           <h1 class="home-page-title"><i>Shape of War</i></h1>
+         </div>
+         <div class="col-md-2">
+            <div class="credits"><a href="https://www.freepik.com/free-vector/war-background-with-silhouettes-of-soldiers_2985753.htm">Designed by Freepik</a>
+            </div>
+         </div>
+      </div>
+    </div>
+   </header>
+   </br>
   <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <h1 class="col-md-12"><i>Shape of War</i></h1>
       <p>
         Ao longo dos anos, a humanidade passou por diversos episódios de
         conflitos armados. Alguns conflitos foram mais marcantes que outros,
@@ -76,96 +91,40 @@
         exploração desses diferentes conflitos mundiais que ocorreram desde 1500.
       </p>
       <p>
-        Buscou-se responder as seguintes perguntas: <i>Qual o número de
-        inimizades/alianças formadas pelos países?</i>, <i>Quais as
-        inimizades/alianças dos países?</i>, <i>Quais foram os países
-        envolvidos em mais conflitos ao longo do tempo?</i>, <i>Como é a
-        distribuição dos conflitos do mundo ao longo dos anos?</i>, COMPLETAR.
+        Buscou-se responder as seguintes perguntas: <i>Qual o número de inimizades/alianças formadas pelos países?</i>, <i>Quais as inimizades/alianças dos países?</i>, <i>Quais foram as guerras que duraram mais tempo?</i>, <i>Quais guerras tiveram mais envolvidos?</i>, <i>Qual foi a distribuição das guerras ao longo dos anos?</i>.
       </p>
     </div>
     <div class="espaco-branco"></div>
-    <div class="row">
-      <div class="col-md-5 pre-vis">
-        <div class="row">
-          <h6>
-            <a href="map/visualization.html">
-              <b>Visualização 1:</b>
-              <i>Number of Conflicts Faced by Each Country Since 1500</i>
-            </a>
-          </h6>
-        </div>
-        <div class="row">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer non elit quis quam vehicula semper id sit amet est.
-            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
-            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
-            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
-            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim
-            ex. Morbi viverra risus nisi, id fermentum felis porttitor in.
-            Donec sagittis sed lacus et congue. Duis eu porta ipsum, vel
-            laoreet ipsum. Etiam ultricies aliquet mauris, in suscipit nibh
-            dignissim eget. Morbi venenatis sed urna sit amet aliquam. Morbi
-            euismod elit quis magna auctor sodales. In ultrices nisl nisl,
-            quis facilisis enim luctus vel. Maecenas efficitur vitae diam
-            non lobortis. In consectetur vel arcu ut aliquet. Nam porta mi
-            eu tellus suscipit auctor. Proin aliquet semper dui, ut porttitor
-            eros tristique ut.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-6">
-        <div class="row pre-vis">
-          <div class="row">
-            <h6>
-              <a href="src/visualizacao2.html">
-                <b>Visualização 2:</b>
-                <i>Percentage of allies and enemies</i>
-              </a>
-            </h6>
-          </div>
-          <div class="row">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer non elit quis quam vehicula semper id sit amet est.
-            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
-            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
-            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
-            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim ex.
-          </div>
-        </div>
-        <div class="row pre-vis">
-          <div class="row">
-            <h6>
-              <a href="src/visualizacao3.html">
-                <b>Visualização 3:</b>
-                <i>Ranking of the conflicts</i>
-              </a>
-            </h6>
-          </div>
-          <div class="row">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer non elit quis quam vehicula semper id sit amet est.
-            Donec gravida id dui vitae lobortis. Donec et tortor ut nisl
-            fermentum venenatis. Proin bibendum, neque ac varius consectetur,
-            mauris nisi consequat eros, vel scelerisque dui nulla eu sem.
-            Aliquam urna nulla, hendrerit sed odio vitae, posuere dignissim ex.
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
+   <div class="container vis-container">
+      <div class="row">
+         <div class="col-md-4">
+            <h8><a href="map/visualization.html"><b>Main Visualization</b></a></h8>
+            <a href="map/visualization.html"><img class="card-img-top" src="img/mainVis.png" alt="Visualizacão 1"></a>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-3">
+               <h8><a href="charts/visualizacao2.html"><b>Percentage of Alliances/Conflicts</b></a></h8>
+               <a href="src/visualizacao2.html"><img class="card-img-top" src="img/vis2.png" alt="Visualizacão 1"></a>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-3">
+               <h8><a href="charts/visualizacao3.html"><b>Longest Wars</b></a></h8>
+               <a href="src/visualizacao3.html"><img class="card-img-top" src="img/vis3.png" alt="Visualizacão 1"></a>
+         </div>
+      </div>
+   </div>
 
   <footer class="page-footer font-small">
     <div class="text-center">
-      Desenvolvido por:
+      Developed by:
       <a href="mailto:amandafp@ufmg.br">
         Amanda Fernandes Pereira,
       </a>
-      <a href="mailto:amanda.pereira@dcc.ufmg.br">
+      <a href="mailto:fabriciohsp@dcc.ufmg.br">
         Fabrício Horácio Sales Pereira,
       </a>
-      <a href="mailto:amanda.pereira@dcc.ufmg.br">
+      <a href="mailto:saraivalucas12@gmail.com">
         Lucas Saraiva,
       </a>
       <a href="mailto:otobraz@ufmg.br">

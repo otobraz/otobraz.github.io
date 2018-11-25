@@ -57,3 +57,7 @@ h6 {
   line-height: .5;
   border-radius: .2rem;
 }
+
+body{
+  background-color: #fafafa;
+}

@@ -3,9 +3,10 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+
 .business-header {
-  height: 50vh;
-  min-height: 300px;
+  height: 35vh;
+  min-height: 200px;
   background: url('../img/war.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,9 +48,10 @@ a, a:hover {
   color: #F2F2F2;
 }
 
-h6 a, h6 a:hover {
+h8 a, h8 a:hover {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .sub-card {
@@ -66,4 +68,25 @@ h6 a, h6 a:hover {
 
 .espaco-branco {
   height: 2%;
+}
+
+.credits{
+   margin-top: 95%;
+   margin-left: 25%;
+}
+
+.credits a{
+   color: #a0a0a0;
+}
+
+.home-page-title{
+  color: #a0a0a0;
+}
+
+/* u{
+   color: #a0a0a0;
+} */
+
+.vis-container{
+   padding-bottom: 2px;
 }
