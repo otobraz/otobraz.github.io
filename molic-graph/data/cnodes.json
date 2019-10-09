@@ -1,0 +1,802 @@
+{"nodes":
+   [
+      {
+         "id": 0,
+         "name": "Abiodun Ogunyemi",
+         "group": 23
+      },
+      {
+         "id": 1,
+         "name": "Adriana Lopes Damian",
+         "group": 25
+      },
+      {
+         "id": 2,
+         "name": "Alandjansen Rodrigues",
+         "group": 17
+      },
+      {
+         "id": 3,
+         "name": "Alessandro J. de Souza - UFRN",
+         "group": 36
+      },
+      {
+         "id": 4,
+         "name": "Aletheia Machado de Oliveira",
+         "group": 15
+      },
+      {
+         "id": 5,
+         "name": "Alexander Schill",
+         "group": 24
+      },
+      {
+         "id": 6,
+         "name": "Allan Kássio Beckman Soares da Cruz",
+         "group": 30
+      },
+      {
+         "id": 7,
+         "name": "Ana Carolina Innecco C de Araujo",
+         "group": 17
+      },
+      {
+         "id": 8,
+         "name": "Ana Cristina Bicharra Garcia",
+         "group": 28
+      },
+      {
+         "id": 9,
+         "name": "Anderson Luiz O. Cavalcanti",
+         "group": 36
+      },
+      {
+         "id": 10,
+         "name": "André Calfa",
+         "group": 17
+      },
+      {
+         "id": 11,
+         "name": "Anna Beatriz dos Santos Marques",
+         "group": 25
+      },
+      {
+         "id": 12,
+         "name": "Ariane Moraes Bueno",
+         "group": 17
+      },
+      {
+         "id": 13,
+         "name": "Arif Raza",
+         "group": 10
+      },
+      {
+         "id": 14,
+         "name": "Belchior Elias",
+         "group": 15
+      },
+      {
+         "id": 15,
+         "name": "Bernhard Dorninger",
+         "group": 22
+      },
+      {
+         "id": 16,
+         "name": "Bruna Moraes",
+         "group": 25
+      },
+      {
+         "id": 17,
+         "name": "Bruno Santana Silva",
+         "group": 17
+      },
+      {
+         "id": 18,
+         "name": "Carla Faria Leitão",
+         "group": 17
+      },
+      {
+         "id": 19,
+         "name": "Carla Ferreira Fernandes",
+         "group": 29
+      },
+      {
+         "id": 20,
+         "name": "Carlos Eduardo Brito Novais",
+         "group": 27
+      },
+      {
+         "id": 21,
+         "name": "Carlos José P. de Lucena",
+         "group": 17
+      },
+      {
+         "id": 22,
+         "name": "Carlos Rosemberg Maia de Carvalho",
+         "group": 6
+      },
+      {
+         "id": 23,
+         "name": "Cássio da Pieva Ehlers",
+         "group": 34
+      },
+      {
+         "id": 24,
+         "name": "Christophe Kolski",
+         "group": 13
+      },
+      {
+         "id": 25,
+         "name": "Cintia Carvalho Oliveira",
+         "group": 39
+      },
+      {
+         "id": 26,
+         "name": "Clarisse Sieckenius de Souza",
+         "group": 17
+      },
+      {
+         "id": 27,
+         "name": "Claudia Andrea Mena Saavedra",
+         "group": 19
+      },
+      {
+         "id": 28,
+         "name": "Cristian Rusu",
+         "group": 19
+      },
+      {
+         "id": 29,
+         "name": "Cristiano Maciel",
+         "group": 28
+      },
+      {
+         "id": 30,
+         "name": "Cybelle Loureiro",
+         "group": 31
+      },
+      {
+         "id": 31,
+         "name": "Daniel Antônio Midena Aguillar",
+         "group": 7
+      },
+      {
+         "id": 32,
+         "name": "Daniel Schwabe",
+         "group": 17
+      },
+      {
+         "id": 33,
+         "name": "Daniel Vitor Costa Ferreira",
+         "group": 17
+      },
+      {
+         "id": 34,
+         "name": "Daniele Carvalho Oliveira",
+         "group": 39
+      },
+      {
+         "id": 35,
+         "name": "Daniele Haucke",
+         "group": 7
+      },
+      {
+         "id": 36,
+         "name": "David Lamas",
+         "group": 23
+      },
+      {
+         "id": 37,
+         "name": "Débora Line",
+         "group": 31
+      },
+      {
+         "id": 38,
+         "name": "Débora Mendonça Cardador Corrêa da Costa",
+         "group": 17
+      },
+      {
+         "id": 39,
+         "name": "Diana Adamatti",
+         "group": 4
+      },
+      {
+         "id": 40,
+         "name": "Diogo Marcos de Oliveira",
+         "group": 31
+      },
+      {
+         "id": 41,
+         "name": "Ecivaldo de Souza Matos",
+         "group": 26
+      },
+      {
+         "id": 42,
+         "name": "Eduardo Tiomno Tolmasquim",
+         "group": 17
+      },
+      {
+         "id": 43,
+         "name": "Elaine S. França",
+         "group": 31
+      },
+      {
+         "id": 44,
+         "name": "Elisabeth-Ann Gynn Todd",
+         "group": 9
+      },
+      {
+         "id": 45,
+         "name": "Elsa Chinita Soares Rodrigues",
+         "group": 43
+      },
+      {
+         "id": 46,
+         "name": "Elton José da Silva",
+         "group": 33
+      },
+      {
+         "id": 47,
+         "name": "Emanuelly de Freitas Morais Barros",
+         "group": 31
+      },
+      {
+         "id": 48,
+         "name": "Esteban Robles Luna",
+         "group": 50
+      },
+      {
+         "id": 49,
+         "name": "Eurico Vasconcelos",
+         "group": 3
+      },
+      {
+         "id": 50,
+         "name": "Filipe Adeodato Garrido",
+         "group": 26
+      },
+      {
+         "id": 51,
+         "name": "Florence Pontico",
+         "group": 11
+      },
+      {
+         "id": 52,
+         "name": "Franco Eusébio Garcia",
+         "group": 38
+      },
+      {
+         "id": 53,
+         "name": "Frederick M. C. van Amstel",
+         "group": 16
+      },
+      {
+         "id": 54,
+         "name": "Gláucio H. M. Moro",
+         "group": 16
+      },
+      {
+         "id": 55,
+         "name": "Gustavo de M. Gonçalves",
+         "group": 17
+      },
+      {
+         "id": 56,
+         "name": "Gustavo Rossi",
+         "group": 50
+      },
+      {
+         "id": 57,
+         "name": "Hana K. Rubinsztejn",
+         "group": 17
+      },
+      {
+         "id": 58,
+         "name": "Heider Maciel",
+         "group": 31
+      },
+      {
+         "id": 59,
+         "name": "Hugo Fuks",
+         "group": 17
+      },
+      {
+         "id": 60,
+         "name": "Iago Antônio Domingues Vaz",
+         "group": 31
+      },
+      {
+         "id": 61,
+         "name": "Igor Mendonça",
+         "group": 39
+      },
+      {
+         "id": 62,
+         "name": "Ilya Shmorgun",
+         "group": 23
+      },
+      {
+         "id": 63,
+         "name": "Ingrid Teixeira Monteiro",
+         "group": 17
+      },
+      {
+         "id": 64,
+         "name": "Irene Garrigós",
+         "group": 46
+      },
+      {
+         "id": 65,
+         "name": "Jair Cavalcanti Leite",
+         "group": 36
+      },
+      {
+         "id": 66,
+         "name": "Jean Clemisson Santos Rosa",
+         "group": 26
+      },
+      {
+         "id": 67,
+         "name": "Jean-Pierre Briot",
+         "group": 3
+      },
+      {
+         "id": 68,
+         "name": "Jefferson José Baqueta",
+         "group": 42
+      },
+      {
+         "id": 69,
+         "name": "Jim Burton",
+         "group": 47
+      },
+      {
+         "id": 70,
+         "name": "Jordan Janeiro",
+         "group": 24
+      },
+      {
+         "id": 71,
+         "name": "José Eurico Vasconcelos",
+         "group": 17
+      },
+      {
+         "id": 72,
+         "name": "Julián Alberto Garcia",
+         "group": 49
+      },
+      {
+         "id": 73,
+         "name": "Juliana Soares Janse Ferreira",
+         "group": 17
+      },
+      {
+         "id": 74,
+         "name": "Juliano Ratusznei",
+         "group": 40
+      },
+      {
+         "id": 75,
+         "name": "Julio Guido Oliveira Militão",
+         "group": 41
+      },
+      {
+         "id": 76,
+         "name": "Júnio Soares Dias",
+         "group": 31
+      },
+      {
+         "id": 77,
+         "name": "Kamila Rios da Hora Rodrigues",
+         "group": 38
+      },
+      {
+         "id": 78,
+         "name": "Karina de Oliveira Rodrigues da Silva",
+         "group": 31
+      },
+      {
+         "id": 79,
+         "name": "Káthia Marçal Oliveira",
+         "group": 13
+      },
+      {
+         "id": 80,
+         "name": "Kleder M. Gonçalves",
+         "group": 17
+      },
+      {
+         "id": 81,
+         "name": "Larissa Ayres",
+         "group": 25
+      },
+      {
+         "id": 82,
+         "name": "Leonardo Ayres",
+         "group": 41
+      },
+      {
+         "id": 83,
+         "name": "Leonardo Freitas",
+         "group": 31
+      },
+      {
+         "id": 84,
+         "name": "Letícia Capelão",
+         "group": 31
+      },
+      {
+         "id": 85,
+         "name": "Ligia de Castro Felix Almeida",
+         "group": 15
+      },
+      {
+         "id": 86,
+         "name": "Lucélia de Souza",
+         "group": 40
+      },
+      {
+         "id": 87,
+         "name": "Luciana Cardoso Castro Salgado",
+         "group": 17
+      },
+      {
+         "id": 88,
+         "name": "Luís Felipe Hussin Bento",
+         "group": 31
+      },
+      {
+         "id": 89,
+         "name": "Luiz Chaimowicz",
+         "group": 31
+      },
+      {
+         "id": 90,
+         "name": "Luiz Gustavo de Souza",
+         "group": 17
+      },
+      {
+         "id": 91,
+         "name": "Luiz Marques Afonso",
+         "group": 17
+      },
+      {
+         "id": 92,
+         "name": "Lyra de Almeida Guimarães Soares",
+         "group": 31
+      },
+      {
+         "id": 93,
+         "name": "Macilon Araújo Costa Neto",
+         "group": 45
+      },
+      {
+         "id": 94,
+         "name": "Mahmood Hosseini",
+         "group": 1
+      },
+      {
+         "id": 95,
+         "name": "Maihara F. de Oliveira Baldus",
+         "group": 32
+      },
+      {
+         "id": 96,
+         "name": "Maíra Greco de Paula",
+         "group": 17
+      },
+      {
+         "id": 97,
+         "name": "Marco Brambilla",
+         "group": 12
+      },
+      {
+         "id": 98,
+         "name": "Marco Winckler",
+         "group": 11
+      },
+      {
+         "id": 99,
+         "name": "Marcos Rafael de Oliveira",
+         "group": 51
+      },
+      {
+         "id": 100,
+         "name": "Margarida Freitas Guimarães",
+         "group": 15
+      },
+      {
+         "id": 101,
+         "name": "Maria Cristina Machado Domingues",
+         "group": 7
+      },
+      {
+         "id": 102,
+         "name": "Maria José Escalona",
+         "group": 49
+      },
+      {
+         "id": 103,
+         "name": "Mario Anzures García",
+         "group": 44
+      },
+      {
+         "id": 104,
+         "name": "Markus Endler",
+         "group": 17
+      },
+      {
+         "id": 105,
+         "name": "Marta Irving",
+         "group": 35
+      },
+      {
+         "id": 106,
+         "name": "Mary Beth Rosson",
+         "group": 14
+      },
+      {
+         "id": 107,
+         "name": "Matias Urbieta",
+         "group": 50
+      },
+      {
+         "id": 108,
+         "name": "Michel S. Soares",
+         "group": 37
+      },
+      {
+         "id": 109,
+         "name": "Milene Selbach Silveira",
+         "group": 18
+      },
+      {
+         "id": 110,
+         "name": "Natasha Valentim",
+         "group": 25
+      },
+      {
+         "id": 111,
+         "name": "Otávio A Martins Netto",
+         "group": 17
+      },
+      {
+         "id": 112,
+         "name": "Patric Galera Forcelini",
+         "group": 52
+      },
+      {
+         "id": 113,
+         "name": "Patrícia Cristiane de Souza",
+         "group": 32
+      },
+      {
+         "id": 114,
+         "name": "Plinio Thomaz Aquino Junio",
+         "group": 2
+      },
+      {
+         "id": 115,
+         "name": "Priscilla Márcia Scarpelli Bastos",
+         "group": 31
+      },
+      {
+         "id": 116,
+         "name": "Quentin Limbourg",
+         "group": 21
+      },
+      {
+         "id": 117,
+         "name": "Rafael Alves",
+         "group": 41
+      },
+      {
+         "id": 118,
+         "name": "Rafael Araújo",
+         "group": 39
+      },
+      {
+         "id": 119,
+         "name": "Rafael Rossato de Souza",
+         "group": 8
+      },
+      {
+         "id": 120,
+         "name": "Rafael Rossi de Mello Brandão",
+         "group": 5
+      },
+      {
+         "id": 121,
+         "name": "Raimundo Barreto",
+         "group": 25
+      },
+      {
+         "id": 122,
+         "name": "Raquel Oliveira Prates",
+         "group": 31
+      },
+      {
+         "id": 123,
+         "name": "Renan G. Cattelan",
+         "group": 39
+      },
+      {
+         "id": 124,
+         "name": "Renata Zilse",
+         "group": 20
+      },
+      {
+         "id": 125,
+         "name": "Renato Fontoura de Gusmão Cerqueira",
+         "group": 5
+      },
+      {
+         "id": 126,
+         "name": "Rodrigo A. S. Alves",
+         "group": 31
+      },
+      {
+         "id": 127,
+         "name": "Rodrigo Ferreira da Silva",
+         "group": 31
+      },
+      {
+         "id": 128,
+         "name": "Rodrigo Freese Gonzatto",
+         "group": 16
+      },
+      {
+         "id": 129,
+         "name": "Rodrigo Mattos Mengue",
+         "group": 40
+      },
+      {
+         "id": 130,
+         "name": "Sara Imtiaz",
+         "group": 10
+      },
+      {
+         "id": 131,
+         "name": "Sebastian Feuerstack",
+         "group": 38
+      },
+      {
+         "id": 132,
+         "name": "Silvana Roncagliolo",
+         "group": 19
+      },
+      {
+         "id": 133,
+         "name": "Sílvia Amélia Bim",
+         "group": 40
+      },
+      {
+         "id": 134,
+         "name": "Simone Diniz Junqueira Barbosa",
+         "group": 17
+      },
+      {
+         "id": 135,
+         "name": "Socrates Veridiano Faria Lopes",
+         "group": 7
+      },
+      {
+         "id": 136,
+         "name": "Sven Linker",
+         "group": 47
+      },
+      {
+         "id": 137,
+         "name": "Taffarel Brant Ribeiro",
+         "group": 39
+      },
+      {
+         "id": 138,
+         "name": "Taisa Guidini Gonçalves",
+         "group": 13
+      },
+      {
+         "id": 139,
+         "name": "Tayana Uchôa Conte",
+         "group": 25
+      },
+      {
+         "id": 140,
+         "name": "Thiago Ribeiro Nunes",
+         "group": 17
+      },
+      {
+         "id": 141,
+         "name": "Thomas Springer",
+         "group": 24
+      },
+      {
+         "id": 142,
+         "name": "Tiago Silva da Silva",
+         "group": 18
+      },
+      {
+         "id": 143,
+         "name": "Ticianne de Gois Ribeiro",
+         "group": 27
+      },
+      {
+         "id": 144,
+         "name": "Timothy C. Lethbridge",
+         "group": 48
+      },
+      {
+         "id": 145,
+         "name": "Ugo Braga Sangiorgi",
+         "group": 17
+      },
+      {
+         "id": 146,
+         "name": "Vahdat Abdelzad",
+         "group": 48
+      },
+      {
+         "id": 147,
+         "name": "Vânia Paula de Almeida Neris",
+         "group": 38
+      },
+      {
+         "id": 148,
+         "name": "Vasco Furtado",
+         "group": 41
+      },
+      {
+         "id": 149,
+         "name": "Vinícius Costa Villas Bôas Segura",
+         "group": 17
+      },
+      {
+         "id": 150,
+         "name": "Vinícius Sebba",
+         "group": 3
+      },
+      {
+         "id": 151,
+         "name": "Viviane Cristina Oliveira Aureliano",
+         "group": 17
+      },
+      {
+         "id": 152,
+         "name": "Viviane Lílian dos Santos Barrozo",
+         "group": 31
+      },
+      {
+         "id": 153,
+         "name": "Werner Putschögl",
+         "group": 22
+      },
+      {
+         "id": 154,
+         "name": "Williamson Silva",
+         "group": 25
+      },
+      {
+         "id": 155,
+         "name": "Alessandro J. de Souza - IFRN",
+         "group": 53
+      },
+      {
+         "id": 156,
+         "name": "Cristiano Maciel - UFMT",
+         "group": 32
+      },
+      {
+         "id": 157,
+         "name": "Lucélia de Souza - UFPR",
+         "group": 34
+      },
+      {
+         "id": 158,
+         "name": "Macilon Araújo Costa Neto - UFRN",
+         "group": 36
+      }
+   ],
+   "links":
+   [
+   ]
+}
