@@ -5,7 +5,8 @@
  */
 
 body {
-  padding-top: 54px;
+  /* padding-top: 54px; */
+  height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -17,13 +18,23 @@ body {
 .business-header {
   height: 50vh;
   min-height: 300px;
-  background: url('../img/eleicoes.png') center center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background: url('../img/molic.png') center center no-repeat scroll;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
 }
 
 .card {
   height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 17vw;
+    object-fit: contain;
+}
+
+.card-div{
+   padding-bottom: 50px;
 }
