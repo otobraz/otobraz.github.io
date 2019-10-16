@@ -14,8 +14,8 @@ body {
 
 circle.node {
    fill: lightsteelblue;
-   stroke: #555;
-   stroke-width: 3px;
+   stroke: #222;
+   stroke-width: 1.5px;
 }
 
 circle.leaf {
@@ -39,7 +39,8 @@ rect{
 }
 
 text{
-   font-weight: bold;
+   font-weight: 500;
+   font-family: helvetica;
 }
 
 .tooltip {
@@ -60,4 +61,10 @@ text{
    text-align: center;
    padding-top: 20px;
    font-family: helvetica;
+}
+
+.instructions-text{
+   fill: #777;
+   font-size: 14px;
+   font-style: italic;
 }

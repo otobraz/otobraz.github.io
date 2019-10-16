@@ -335,10 +335,10 @@ function init() {
       })
       .on("mouseout", mouseout)
       .on("click", function(d) {
+         if (d3.event.defaultPrevented) return; // dragged
          for(i = 1; i <= node.size(); i++){
             expand[i] = !expand[i];
          }
-         if (d3.event.defaultPrevented) return; // dragged
          expanded = !expanded;
          if(expanded){
             gravity = 0.7;
@@ -446,6 +446,8 @@ function init() {
 
       vis.append("text").attr("x", textX).attr("y", textY1 + textY2*19).text("Instituições com 2 autores").style("font-size", "18px").attr("alignment-baseline","middle");
       vis.append("text").attr("x", textX).attr("y", textY1 + textY2*20).text("Instituições com 1 autor").style("font-size", "18px").attr("alignment-baseline","middle");
+
+      vis.append("text").attr("x", 25).attr("y", textY1).attr("class", "instructions-text").text("Clique em algum nó para expandir ou contrair o grafo").attr("alignment-baseline","middle");
    }
 
    // mostra a tooltip quando o cursor passar por algum estado
