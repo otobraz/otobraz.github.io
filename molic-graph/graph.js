@@ -1,5 +1,5 @@
 var width = window.innerWidth,     // svg width
-height = window.innerHeight,     // svg height
+height = window.innerHeight - 100,     // svg height
 dr = 4,      // default point radius
 off = 15,    // cluster hull offset
 expand = {}, // expanded clusters
@@ -180,9 +180,10 @@ var institutions;
 var edges;
 var nodes = {};
 var groups = {};
-var teste = 1, teste1 = 1;
 var duplicatedAuthors = [3, 29, 86, 93];
 var count = 0;
+var expanded = false;
+var gravity = 0.4, charge = -height - 1000, friction = 0.5;
 
 // d3.csv("data/cinstitutions.csv", function(error, data) {
 //    institutions = data;
@@ -246,7 +247,6 @@ function ready(error, output){
       o.target = data.nodes[o.target];
    }
 
-   hullg = vis.append("g").attr("transform", "translate(-200,0)")
    linkg = vis.append("g").attr("transform", "translate(-200,0)")
    nodeg = vis.append("g").attr("transform", "translate(-200,0)")
 
@@ -291,26 +291,10 @@ function init() {
    .linkStrength(function(l, i) {
       return 1;
    })
-   .gravity(0.9)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
-      .charge(-950)    // ... charge is important to turn single-linked groups to the outside
-      .friction(0.7)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
+   .gravity(gravity)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
+      .charge(charge)    // ... charge is important to turn single-linked groups to the outside
+      .friction(friction)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
       .start();
-
-      // hullg.selectAll("path.hull").remove();
-      // hull = hullg.selectAll("path.hull")
-      // .data(convexHulls(net.nodes, getGroup, off))
-      // .enter().append("path")
-      // .attr("class", "hull")
-      // .attr("d", drawCluster)
-      // .style("fill", function(d) {
-      //    expand[d.group] = !expand[d.group];
-      //    if(groups[d.group] > 2){
-      //       return fill(d.group)
-      //    }else if (groups[d.group] == 2){
-      //       return fill(100);
-      //    }
-      //    return fill(50);
-      // });
 
       link = linkg.selectAll("line.link").data(net.links, linkid);
       link.exit().remove();
@@ -348,7 +332,6 @@ function init() {
                   return (maxValue + 70) + "px";
                }
             });
-         console.log(getTextWidth(institutions[d.group-1].institution) + " " + getTextWidth(d.name) + " " + maxValue);
       })
       .on("mouseout", mouseout)
       .on("click", function(d) {
@@ -356,7 +339,16 @@ function init() {
             expand[i] = !expand[i];
          }
          if (d3.event.defaultPrevented) return; // dragged
-         teste = 0;
+         expanded = !expanded;
+         if(expanded){
+            gravity = 0.7;
+            charge = -height - 300;
+            friction = 0.5;
+         }else{
+            gravity = 0.4;
+            charge = -height - 1000;
+            friction = 0.5;
+         }
          init();
          node.style("fill", function(g) {
             return colors[g.group-1];
@@ -413,8 +405,12 @@ function init() {
          .attr("cy", function(d) { return d.y; });
       });
 
-      var rectX = window.innerWidth - 500 , rectY1 = 50, rectY2 = 32;
-      var textX = rectX+30, textY1 = rectY1+18, textY2 = 32;
+      var rectX = window.innerWidth / 1.5;
+      var rectW = 25, rectH = 25;
+      var rectHeightTotal = 21 * rectH;
+      var rectGap = (height - rectHeightTotal) / 22 + rectH;
+
+      var textX = rectX+30, textY1 = rectGap-rectH+18, textY2 = rectGap;
 
       filteredNodes = net.nodes.filter(function(d){ return d.size > 2;})
       .sort(function(x, y){ return +x.size < +y.size ? 1 : -1;});;
@@ -423,18 +419,18 @@ function init() {
       .data(filteredNodes).enter()
       .append("rect")
       .attr("x",rectX)
-      .attr("y", function(d,i){ return rectY1 + i*rectY2;})
-      .attr("width", 25).attr("height", 25)
+      .attr("y", function(d,i){ return rectGap-rectH + i*rectGap;})
+      .attr("width", rectW).attr("height", rectH)
       .style("stroke", "#222")
       .attr("rx", 2).attr("ry", 2)
       .style("fill", function(d){
          return colors[d.group-1];
       });
 
-      vis.append("rect").attr("x",rectX).attr("y", rectY1 + rectY2*19).attr("width", 25).attr("height", 25).attr("rx", 2).attr("ry", 2)
+      vis.append("rect").attr("x",rectX).attr("y", rectGap-rectH + rectGap*19).attr("width", 25).attr("height", 25).attr("rx", 2).attr("ry", 2)
       .style("stroke", "#222").style("fill", color2);
 
-      vis.append("rect").attr("x",rectX).attr("y", rectY1 + rectY2*20).attr("width", 25).attr("height", 25).attr("rx", 2).attr("ry", 2)
+      vis.append("rect").attr("x",rectX).attr("y", rectGap-rectH + rectGap*20).attr("width", 25).attr("height", 25).attr("rx", 2).attr("ry", 2)
       .style("stroke", "#222").style("fill", color1);
 
       vis.selectAll("text")
@@ -448,10 +444,8 @@ function init() {
          return institutions[d.group-1].institution + " (" + d.size + " autores)";
       });
 
-      if (teste) {
-         vis.append("text").attr("x", textX).attr("y", textY1 + textY2*19).text("Instituições com 2 autores").style("font-size", "18px").attr("alignment-baseline","middle");
-         vis.append("text").attr("x", textX).attr("y", textY1 + textY2*20).text("Instituições com 1 autor").style("font-size", "18px").attr("alignment-baseline","middle");
-      }
+      vis.append("text").attr("x", textX).attr("y", textY1 + textY2*19).text("Instituições com 2 autores").style("font-size", "18px").attr("alignment-baseline","middle");
+      vis.append("text").attr("x", textX).attr("y", textY1 + textY2*20).text("Instituições com 1 autor").style("font-size", "18px").attr("alignment-baseline","middle");
    }
 
    // mostra a tooltip quando o cursor passar por algum estado

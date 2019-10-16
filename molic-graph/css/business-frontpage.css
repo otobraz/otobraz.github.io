@@ -6,23 +6,23 @@
 
 body {
   /* padding-top: 54px; */
-  height: 100%;
+  /* height: 100%; */
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    /* padding-top: 56px; */
   }
 }
 
 .business-header {
   height: 50vh;
   min-height: 300px;
-  background: url('../img/molic.png') center center no-repeat scroll;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+  background: url('../img/dcc.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .card {

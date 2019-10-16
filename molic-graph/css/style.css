@@ -1,23 +1,33 @@
 svg {
-   /* border: 1px solid #ccc; */
+   border-top: 1px solid #ccc;
    /* margin-top: 50px; */
 }
+
+hr{
+   width: 100%;
+}
+
 body {
    /* font: 15px sans-serif; */
+   width: innerWidth;
 }
+
 circle.node {
    fill: lightsteelblue;
    stroke: #555;
    stroke-width: 3px;
 }
+
 circle.leaf {
    stroke: #222;
    stroke-width: 1px;
 }
+
 path.hull {
    fill: lightsteelblue;
    fill-opacity: 0;
 }
+
 line.link {
    stroke: #333;
    stroke-opacity:0.9;
@@ -44,4 +54,10 @@ text{
    pointer-events: none;
    position: absolute;
    text-align: center;
+}
+
+.graph-title{
+   text-align: center;
+   padding-top: 20px;
+   font-family: helvetica;
 }
