@@ -1,9 +1,9 @@
-# Data Visualization - Project I
+# [Visualizações de dados](https://otobraz.github.io/elei%C3%A7%C3%B5es-2014/) sobre as eleições presidenciais de 2014.
 
-## Visualization of Brazil 2014 General Election's data
+As visualizações desenvolvidas apresentam as seguintes informações:
 
-### Visualization I
+    Partidos mais votados em cada estado brasileiro
+       
+    Cargos mais votados
 
-### Visualization II
-
-### Visualization III
+    Candidatos à presidência que receberam mais votos. 
